@@ -11,6 +11,7 @@ To install, you first need to install electron if you haven't already. This meth
 ### Next, clone this repo somewhere.
 
 `git clone https://github.com/fyroc/lucee-electron.git`
+
 `cd lucee-electron`
 
 ### Install NPM Modules
