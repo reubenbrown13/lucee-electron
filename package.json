@@ -19,9 +19,9 @@
   "author": "Cory Fail (fyroc)",
   "license": "MIT",
   "devDependencies": {
-    "electron-prebuilt": "^0.32.2"
+    "electron": "^36.4.0"
   },
   "dependencies": {
-    "electron-is": "^3.0.0"
+    "is-electron": "^2.2.2"
   }
 }

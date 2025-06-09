@@ -1,12 +1,14 @@
 
-var app = require('app');  // Module to control application life.
-var BrowserWindow = require('browser-window');  // Module to create native browser window.
-const is = require("electron-is");
+const {app,BrowserWindow} =require('electron');  // Module to control application life.
+const is = require("is-electron");
+const os = require("os");
+const isWindows = os.platform() === "win32";
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 var mainWindow = null;
 
+app.commandLine.appendSwitch('gtk-version', '3');
 // Quit when all windows are closed.
 app.on('window-all-closed', function() {
   // On OS X it is common for applications and their menu bar
@@ -23,8 +25,7 @@ app.on('ready', function() {
   // Start Lucee
   startLucee();
   // Create the browser window.
-  mainWindow = new BrowserWindow({width: 800, height: 600+410});
-
+  var mainWindow = new BrowserWindow({width: 800, height: 600+410});
   // Wait a few seconds so Lucee can load
   setTimeout(function() {
       mainWindow.loadUrl('http://localhost:8888/')
@@ -46,7 +47,7 @@ app.on('ready', function() {
 function startLucee() {
   const process = require('child_process');
 
-  var cmd = (is.windows()) ? 'lucee/startup.bat' : './lucee/startup.sh';
+  var cmd = (isWindows) ? 'lucee/startup.bat' : './lucee/startup.sh';
       
   var child = process.spawn(cmd); 
 
@@ -58,7 +59,7 @@ function startLucee() {
 function stopLucee() {
   const process = require('child_process');
 
-  var cmd = (is.windows()) ? 'lucee/shutdown.bat' : './lucee/shutdown.sh';
+  var cmd = (isWindows) ? 'lucee/shutdown.bat' : './lucee/shutdown.sh';
       
   var child = process.spawn(cmd); 
 
