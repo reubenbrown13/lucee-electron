@@ -18,7 +18,7 @@
 	<!-- Zip -->
 	<tag>
 		<name>Zip</name>
-		<tag-class bundle-name="compress.extension" bundle-version="1.0.0.0-BETA">org.lucee.extension.zip.tag.Zip</tag-class>
+		<tag-class bundle-name="compress.extension" bundle-version="1.0.0.15">org.lucee.extension.zip.tag.Zip</tag-class>
 		<body-content>free</body-content>
 		<body-rtexprvalue>false</body-rtexprvalue>
 		<script>
@@ -194,14 +194,21 @@
 			<name>password</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
-			<description></description>
+			<description>Password for the zip file.</description>
     	</attribute>
 		<attribute>
 			<type>string</type>
 			<name>encryptionalgorithm</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
-			<description></description>
+			<description>Supported algorithms are aes(=aes256), aes128 and standard</description>
+    	</attribute>
+	<attribute>
+		<type>string</type>
+		<name>compressionMethod</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+		<description>Set the zip compression level, default is deflate(deflateNormal),deflateFast,deflateFastest,deflateMaximum,deflateUtra,aesenc,store</description>
     	</attribute>
 	</tag>
 	
@@ -209,7 +216,7 @@
 	<!-- ZipParam -->
 	<tag>
 		<name>ZipParam</name>
-		<tag-class bundle-name="compress.extension" bundle-version="1.0.0.0-BETA">org.lucee.extension.zip.tag.ZipParam</tag-class>
+		<tag-class bundle-name="compress.extension" bundle-version="1.0.0.15">org.lucee.extension.zip.tag.ZipParam</tag-class>
 		<body-content>empty</body-content>
 		<body-rtexprvalue>false</body-rtexprvalue>
 		<script>
@@ -303,14 +310,14 @@
 			<name>password</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
-			<description></description>
+			<description>Password for the file(s) added via cfzipparam</description>
     	</attribute>
 		<attribute>
 			<type>string</type>
 			<name>encryptionalgorithm</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
-			<description></description>
+			<description>Supported algorithms are aes(=aes256), aes128 and standard</description>
     	</attribute>
 	</tag>
 

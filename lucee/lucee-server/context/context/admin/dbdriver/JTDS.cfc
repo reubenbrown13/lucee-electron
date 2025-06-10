@@ -31,12 +31,12 @@
 	
 	<cffunction name="getName" returntype="string" output="no"
 		hint="returns display name of the driver">
-		<cfreturn "jTDS (MSQL and Sybase)">
+		<cfreturn "jTDS (MSSQL,Sybase)">
 	</cffunction>
 	
 	<cffunction name="getDescription" returntype="string" output="no"
 		hint="returns description for the driver">
-		<cfreturn "jTDS is an open source 100% pure Java (type 4) JDBC 3.0 driver for Microsoft SQL Server (6.5, 7, 2000, 2005, 2008 and 2012) and Sybase Adaptive Server Enterprise (10, 11, 12 and 15). See http://jtds.sourceforge.net/ for details.">
+		<cfreturn "jTDS is an open source 100% pure Java (type 4) JDBC 3.0 driver for Microsoft SQL Server (6.5, 7, 2000, 2005, 2008 and 2012) and Sybase Adaptive Server Enterprise (10, 11, 12 and 15).">
 	</cffunction>
 
 	<cffunction name="equals" returntype="boolean" output="false"

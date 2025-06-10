@@ -1,0 +1,8 @@
+{
+  "id": "1C9A7C34-2555-4AAA-92FBB7FC7111140C",
+  "name": "Log analyzer",
+  "version": "2.3.1.16",
+  "startBundles": "true",
+  "releaseType": "all",
+  "trial": "false"
+}

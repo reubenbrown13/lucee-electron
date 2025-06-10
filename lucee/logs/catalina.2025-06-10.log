@@ -1,0 +1,37 @@
+10-Jun-2025 16:08:25.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.11
+10-Jun-2025 16:08:25.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 11 2018 19:47:23 UTC
+10-Jun-2025 16:08:25.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.11.0
+10-Jun-2025 16:08:25.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+10-Jun-2025 16:08:25.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.12.10-76061203-generic
+10-Jun-2025 16:08:25.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Jun-2025 16:08:25.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+10-Jun-2025 16:08:25.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.27+6-post-Ubuntu-0ubuntu122.04
+10-Jun-2025 16:08:25.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+10-Jun-2025 16:08:25.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee
+10-Jun-2025 16:08:25.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee
+10-Jun-2025 16:08:25.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Jun-2025 16:08:25.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Jun-2025 16:08:25.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Jun-2025 16:08:25.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/conf/logging.properties
+10-Jun-2025 16:08:25.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Jun-2025 16:08:25.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Jun-2025 16:08:25.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Jun-2025 16:08:25.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Jun-2025 16:08:25.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-Jun-2025 16:08:25.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee
+10-Jun-2025 16:08:25.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee
+10-Jun-2025 16:08:25.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/temp
+10-Jun-2025 16:08:25.202 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+10-Jun-2025 16:08:25.255 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8888"]
+10-Jun-2025 16:08:25.273 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Jun-2025 16:08:25.280 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Jun-2025 16:08:25.282 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Jun-2025 16:08:25.282 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 537 ms
+10-Jun-2025 16:08:25.340 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Jun-2025 16:08:25.340 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.11
+10-Jun-2025 16:08:25.351 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/webapps/ROOT]
+10-Jun-2025 16:08:25.739 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jun-2025 16:08:27.912 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/webapps/ROOT] has finished in [2,561] ms
+10-Jun-2025 16:08:27.914 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8888"]
+10-Jun-2025 16:08:27.926 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Jun-2025 16:08:27.928 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2645 ms

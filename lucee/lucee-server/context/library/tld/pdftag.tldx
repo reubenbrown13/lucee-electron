@@ -14,11 +14,11 @@
 	<el>
 		<el-class>lucee.transformer.cfml.expression.CFMLExprTransformer</el-class>
 	</el>
-	
+
 	<!-- Document -->
 	<tag>
 		<name>document</name>
-		<tag-class bundle-name="pdf.extension" bundle-version="1.0.0.73-SNAPSHOT">org.lucee.extension.pdf.tag.Document</tag-class>
+		<tag-class bundle-name="pdf.extension" bundle-version="1.2.0.10">org.lucee.extension.pdf.tag.Document</tag-class>
 		<body-content>free</body-content>
 		<body-rtexprvalue>false</body-rtexprvalue>
 		<script>
@@ -63,6 +63,7 @@
 			<rtexprvalue>true</rtexprvalue>
 			<description>directory that contains addional font files (.ttf) and a pd4fonts.properties to describe them.</description>
 		</attribute>
+
 		<attribute>
 			<type>string</type>
 			<name>format</name>
@@ -214,6 +215,13 @@
 		</attribute>
 		<attribute>
 			<type>string</type>
+			<name>type</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+			<description>PDF rendering method to use ("classic" or "modern"). Defaults to this.pdf.type setting in Application.cfc, or to "modern" if that is not defined.</description>
+		</attribute>
+		<attribute>
+			<type>string</type>
 			<name>unit</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
@@ -319,7 +327,7 @@
 	<!-- DocumentItem -->
 	<tag>
 		<name>documentitem</name>
-		<tag-class bundle-name="pdf.extension" bundle-version="1.0.0.73-SNAPSHOT">org.lucee.extension.pdf.tag.DocumentItem</tag-class>
+		<tag-class bundle-name="pdf.extension" bundle-version="1.2.0.10">org.lucee.extension.pdf.tag.DocumentItem</tag-class>
 		<body-content>free</body-content>
 		<body-rtexprvalue>false</body-rtexprvalue>
 		<script>
@@ -367,7 +375,7 @@ Determines if the contents of the cfdocumentitem tag body has to be evaluated at
 	<!-- DocumentSection -->
 	<tag>
 		<name>documentsection</name>
-		<tag-class bundle-name="pdf.extension" bundle-version="1.0.0.73-SNAPSHOT">org.lucee.extension.pdf.tag.DocumentSection</tag-class>
+		<tag-class bundle-name="pdf.extension" bundle-version="1.2.0.10">org.lucee.extension.pdf.tag.DocumentSection</tag-class>
 		<body-content>free</body-content>
 		<body-rtexprvalue>false</body-rtexprvalue>
 		<script>
@@ -416,6 +424,13 @@ Determines if the contents of the cfdocumentitem tag body has to be evaluated at
             centimeters. To specify the top margin in centimeters,
             include the unit="cm" attribute in the parent cfdocument
             tag.</description>
+		</attribute>
+		<attribute>
+			<type>string</type>
+			<name>orientation</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+			<description>is the orientation landscape or portrait</description>
 		</attribute>
 		<attribute>
 			<type>string</type>
@@ -473,7 +488,7 @@ Determines if the contents of the cfdocumentitem tag body has to be evaluated at
 	<!-- PDF -->
 	<tag>
 		<name>pdf</name>
-		<tag-class bundle-name="pdf.extension" bundle-version="1.0.0.73-SNAPSHOT">org.lucee.extension.pdf.tag.PDF</tag-class>
+		<tag-class bundle-name="pdf.extension" bundle-version="1.2.0.10">org.lucee.extension.pdf.tag.PDF</tag-class>
 		<body-content>free</body-content>
 		<body-rtexprvalue>false</body-rtexprvalue>
 		<script>
@@ -499,7 +514,7 @@ Manipulates existing PDF documents. The following list describes some of the tas
 		<attribute>
 			<type>string</type>
 			<name>action</name>
-			<values>addWatermark,deletePages,getInfo,merge,protect,read,removeWatermark,setInfo,thumbnail,write</values>
+			<values>addHeader, addFooter, addWatermark, deletePages, extractText, getInfo, merge, open, removePassword, protect, read, removeWatermark, setInfo, thumbnail, write</values>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
 			<description>action to take</description>
@@ -858,7 +873,7 @@ Manipulates existing PDF documents. The following list describes some of the tas
 	<!-- PDFParam -->
 	<tag>
 		<name>PDFParam</name>
-		<tag-class bundle-name="pdf.extension" bundle-version="1.0.0.73-SNAPSHOT">org.lucee.extension.pdf.tag.PDFParam</tag-class>
+		<tag-class bundle-name="pdf.extension" bundle-version="1.2.0.10">org.lucee.extension.pdf.tag.PDFParam</tag-class>
 		<body-content>empty</body-content>
 		<body-rtexprvalue>false</body-rtexprvalue>
 		<script>

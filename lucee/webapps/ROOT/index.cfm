@@ -99,11 +99,11 @@
 
 								<div class="listing-content">
 									<h2 class="title">
-										<a href="#newURL#">New in Lucee 5</a>
+										<a href="#newURL#">New in Lucee #ListFirst(server.lucee.version,'.')#</a>
 									</h2>
 
 									<p>
-										Lucee 5 is the first major release after forking from the Railo project. Lucee 5 is not about dazzling new features but about improving the core language and providing a complete architectural overhaul of the engine.
+										Lucee #ListFirst(server.lucee.version,'.')# is the second major release after forking from the Railo project. Lucee #ListFirst(server.lucee.version,'.')# is not about dazzling new features but about improving the core language and providing a complete architectural overhaul of the engine.
 										This brings Lucee and CFML to a whole new level!
 									</p>
 

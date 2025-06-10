@@ -14,7 +14,7 @@
 	
 	<cffunction name="getDescription" returntype="string" output="no"
 		hint="returns description for the driver">
-		<cfreturn "PostgreSQL JDBC Driver">
+		<cfreturn "JDBC Driver for the PostgreSQL Database.">
 	</cffunction>
 	
 	<cffunction name="getFields" returntype="array" output="no"

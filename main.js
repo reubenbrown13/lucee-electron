@@ -28,7 +28,7 @@ app.on('ready', function() {
   var mainWindow = new BrowserWindow({width: 800, height: 600+410});
   // Wait a few seconds so Lucee can load
   setTimeout(function() {
-      mainWindow.loadUrl('http://localhost:8888/')
+      mainWindow.loadURL('http://localhost:8888/')
   }, 5000);
 
   // Open the DevTools.

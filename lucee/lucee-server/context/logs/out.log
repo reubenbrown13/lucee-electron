@@ -1,0 +1,1672 @@
+2025-01-14 16:33:29.787 lucee.runtime.config.ConfigServerFactory ===================================================================
+SERVER CONTEXT
+-------------------------------------------------------------------
+- config:/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context
+- loader-version:6.3
+- core-version:6.1.1.118
+===================================================================
+
+2025-01-14 16:33:30.59 lucee.runtime.config.ConfigServerFactory load config file
+2025-01-14 16:33:30.136 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/locales/pt-PT-date.df]
+2025-01-14 16:33:30.138 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/security/antisamy-basic.xml]
+2025-01-14 16:33:30.145 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/lucee-context.lar]
+2025-01-14 16:33:30.158 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/lucee-admin.lar]
+2025-01-14 16:33:30.163 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/lucee-doc.lar]
+2025-01-14 16:33:30.165 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/component-dump.cfm]
+2025-01-14 16:33:30.166 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/Application.cfc]
+2025-01-14 16:33:30.167 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/form.cfm]
+2025-01-14 16:33:30.168 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/graph.cfm]
+2025-01-14 16:33:30.169 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/wddx.cfm]
+2025-01-14 16:33:30.170 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin.cfm]
+2025-01-14 16:33:30.171 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/plugin/Plugin.cfc]
+2025-01-14 16:33:30.172 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/plugin/Note/language.xml]
+2025-01-14 16:33:30.172 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/plugin/Note/overview.cfm]
+2025-01-14 16:33:30.173 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/plugin/Note/Action.cfc]
+2025-01-14 16:33:30.176 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/lucee/extension/gateway/TaskGateway.cfc]
+2025-01-14 16:33:30.177 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/lucee/extension/gateway/DummyGateway.cfc]
+2025-01-14 16:33:30.177 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/lucee/extension/gateway/DirectoryWatcher.cfc]
+2025-01-14 16:33:30.178 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/lucee/extension/gateway/DirectoryWatcherListener.cfc]
+2025-01-14 16:33:30.178 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/lucee/extension/gateway/WatchService.cfc]
+2025-01-14 16:33:30.179 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/lucee/extension/gateway/MailWatcher.cfc]
+2025-01-14 16:33:30.179 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/lucee/extension/gateway/MailWatcherListener.cfc]
+2025-01-14 16:33:30.179 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/lucee/extension/gateway/AsynchronousEvents.cfc]
+2025-01-14 16:33:30.180 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/lucee/extension/gateway/AsynchronousEventsListener.cfc]
+2025-01-14 16:33:30.180 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/debug/Debug.cfc]
+2025-01-14 16:33:30.181 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/debug/Field.cfc]
+2025-01-14 16:33:30.181 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/debug/Group.cfc]
+2025-01-14 16:33:30.182 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/cdriver/Cache.cfc]
+2025-01-14 16:33:30.182 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/cdriver/Field.cfc]
+2025-01-14 16:33:30.182 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/cdriver/Group.cfc]
+2025-01-14 16:33:30.183 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/dbdriver/types/IDriver.cfc]
+2025-01-14 16:33:30.184 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/dbdriver/types/Driver.cfc]
+2025-01-14 16:33:30.184 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/dbdriver/types/IDatasource.cfc]
+2025-01-14 16:33:30.185 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/dbdriver/types/IDriverSelector.cfc]
+2025-01-14 16:33:30.185 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/dbdriver/types/Field.cfc]
+2025-01-14 16:33:30.185 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/gdriver/Gateway.cfc]
+2025-01-14 16:33:30.185 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/gdriver/Field.cfc]
+2025-01-14 16:33:30.186 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/gdriver/Group.cfc]
+2025-01-14 16:33:30.186 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/logging/appender/Appender.cfc]
+2025-01-14 16:33:30.187 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/logging/appender/Field.cfc]
+2025-01-14 16:33:30.188 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/logging/appender/Group.cfc]
+2025-01-14 16:33:30.188 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/logging/layout/Layout.cfc]
+2025-01-14 16:33:30.189 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/logging/layout/Field.cfc]
+2025-01-14 16:33:30.189 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/logging/layout/Group.cfc]
+2025-01-14 16:33:30.190 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/templates/error/error.cfm]
+2025-01-14 16:33:30.191 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/templates/error/error-neo.cfm]
+2025-01-14 16:33:30.191 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/templates/error/error-public.cfm]
+2025-01-14 16:33:30.192 lucee.runtime.config.ConfigWebFactory start reading config
+2025-01-14 16:33:30.193 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-01-14 16:33:30.336 lucee.runtime.config.ConfigWebFactory reloading configuration
+2025-01-14 16:33:30.337 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-01-14 16:33:30.340 lucee.runtime.config.ConfigWebFactory loaded config
+2025-01-14 16:33:30.483 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-01-14 16:33:30.487 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-01-14 16:33:30.492 lucee.runtime.config.ConfigWebFactory loaded id
+2025-01-14 16:33:30.493 lucee.runtime.config.ConfigWebFactory loaded version
+2025-01-14 16:33:30.494 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-01-14 16:33:30.527 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/tag/Dump.cfc]
+2025-01-14 16:33:30.528 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/tag/build/jquery/jquery-1.12.4.min.js]
+2025-01-14 16:33:30.536 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/writeDump.cfm]
+2025-01-14 16:33:30.536 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/dump.cfm]
+2025-01-14 16:33:30.537 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/location.cfm]
+2025-01-14 16:33:30.537 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/threadJoin.cfm]
+2025-01-14 16:33:30.538 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/threadTerminate.cfm]
+2025-01-14 16:33:30.538 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/throw.cfm]
+2025-01-14 16:33:30.538 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/trace.cfm]
+2025-01-14 16:33:30.539 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/transactionCommit.cfm]
+2025-01-14 16:33:30.539 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/transactionRollback.cfm]
+2025-01-14 16:33:30.539 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/transactionSetsavepoint.cfm]
+2025-01-14 16:33:30.540 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/writeLog.cfm]
+2025-01-14 16:33:30.540 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-01-14 16:33:30.541 lucee.runtime.config.ConfigWebFactory loaded extension definitions
+2025-01-14 16:33:30.544 lucee.runtime.config.ConfigWebFactory loaded application
+2025-01-14 16:33:30.544 lucee.runtime.config.ConfigWebFactory loaded java
+2025-01-14 16:33:32.953 lucee.runtime.config.ConfigWebFactory start reading config
+2025-01-14 16:33:32.953 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-01-14 16:33:32.953 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-01-14 16:33:32.953 lucee.runtime.config.ConfigWebFactory loaded config
+2025-01-14 16:33:32.956 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-01-14 16:33:32.956 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-01-14 16:33:32.956 lucee.runtime.config.ConfigWebFactory loaded id
+2025-01-14 16:33:32.956 lucee.runtime.config.ConfigWebFactory loaded version
+2025-01-14 16:33:32.956 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-01-14 16:33:32.972 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/tag/Dump.cfc]
+2025-01-14 16:33:32.974 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/tag/build/jquery/jquery-1.12.4.min.js]
+2025-01-14 16:33:32.987 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/writeDump.cfm]
+2025-01-14 16:33:32.988 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/dump.cfm]
+2025-01-14 16:33:32.988 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/location.cfm]
+2025-01-14 16:33:32.989 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/threadJoin.cfm]
+2025-01-14 16:33:32.989 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/threadTerminate.cfm]
+2025-01-14 16:33:32.990 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/throw.cfm]
+2025-01-14 16:33:32.990 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/trace.cfm]
+2025-01-14 16:33:32.990 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/transactionCommit.cfm]
+2025-01-14 16:33:32.990 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/transactionRollback.cfm]
+2025-01-14 16:33:32.991 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/transactionSetsavepoint.cfm]
+2025-01-14 16:33:32.991 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/writeLog.cfm]
+2025-01-14 16:33:32.991 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-01-14 16:33:32.992 lucee.runtime.config.ConfigWebFactory loaded extension definitions
+2025-01-14 16:33:32.992 lucee.runtime.config.ConfigWebFactory loaded application
+2025-01-14 16:33:32.992 lucee.runtime.config.ConfigWebFactory loaded java
+2025-01-14 16:33:32.993 lucee.runtime.config.ConfigServerFactory ===================================================================
+SERVER CONTEXT
+-------------------------------------------------------------------
+- config:/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context
+- loader-version:6.3
+- core-version:6.1.1.118
+===================================================================
+
+2025-01-14 16:33:32.994 lucee.runtime.config.ConfigServerFactory load config file
+2025-01-14 16:33:32.994 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/security/antisamy-basic.xml]
+2025-01-14 16:33:32.998 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/lucee-context.lar]
+2025-01-14 16:33:33.6 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/lucee-admin.lar]
+2025-01-14 16:33:33.10 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/lucee-doc.lar]
+2025-01-14 16:33:33.11 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/form.cfm]
+2025-01-14 16:33:33.11 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/graph.cfm]
+2025-01-14 16:33:33.11 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/lucee/extension/gateway/TaskGateway.cfc]
+2025-01-14 16:33:33.12 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/lucee/extension/gateway/DummyGateway.cfc]
+2025-01-14 16:33:33.13 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/lucee/extension/gateway/DirectoryWatcher.cfc]
+2025-01-14 16:33:33.14 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/lucee/extension/gateway/DirectoryWatcherListener.cfc]
+2025-01-14 16:33:33.15 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/lucee/extension/gateway/WatchService.cfc]
+2025-01-14 16:33:33.15 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/lucee/extension/gateway/MailWatcher.cfc]
+2025-01-14 16:33:33.15 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/lucee/extension/gateway/MailWatcherListener.cfc]
+2025-01-14 16:33:33.16 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/lucee/extension/gateway/AsynchronousEvents.cfc]
+2025-01-14 16:33:33.16 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/lucee/extension/gateway/AsynchronousEventsListener.cfc]
+2025-01-14 16:33:33.16 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/debug/Debug.cfc]
+2025-01-14 16:33:33.16 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/debug/Field.cfc]
+2025-01-14 16:33:33.16 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/debug/Group.cfc]
+2025-01-14 16:33:33.17 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/cdriver/Cache.cfc]
+2025-01-14 16:33:33.17 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/cdriver/Field.cfc]
+2025-01-14 16:33:33.17 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/cdriver/Group.cfc]
+2025-01-14 16:33:33.17 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/dbdriver/types/IDriver.cfc]
+2025-01-14 16:33:33.17 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/dbdriver/types/Driver.cfc]
+2025-01-14 16:33:33.18 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/dbdriver/types/IDatasource.cfc]
+2025-01-14 16:33:33.18 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/dbdriver/types/IDriverSelector.cfc]
+2025-01-14 16:33:33.18 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/dbdriver/types/Field.cfc]
+2025-01-14 16:33:33.18 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/gdriver/Gateway.cfc]
+2025-01-14 16:33:33.18 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/gdriver/Field.cfc]
+2025-01-14 16:33:33.18 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/gdriver/Group.cfc]
+2025-01-14 16:33:33.18 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/logging/appender/Appender.cfc]
+2025-01-14 16:33:33.19 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/logging/appender/Field.cfc]
+2025-01-14 16:33:33.19 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/logging/appender/Group.cfc]
+2025-01-14 16:33:33.19 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/logging/layout/Layout.cfc]
+2025-01-14 16:33:33.19 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/logging/layout/Field.cfc]
+2025-01-14 16:33:33.19 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/logging/layout/Group.cfc]
+2025-01-14 16:33:33.19 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/templates/error/error.cfm]
+2025-01-14 16:33:33.20 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/templates/error/error-neo.cfm]
+2025-01-14 16:33:33.20 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/templates/error/error-public.cfm]
+2025-01-14 16:33:33.20 lucee.runtime.config.ConfigWebFactory start reading config
+2025-01-14 16:33:33.20 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-01-14 16:33:33.20 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-01-14 16:33:33.20 lucee.runtime.config.ConfigWebFactory loaded config
+2025-01-14 16:33:33.20 lucee.runtime.config.ConfigWebFactory loaded constants
+2025-01-14 16:33:33.23 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-01-14 16:33:33.23 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-01-14 16:33:33.24 lucee.runtime.config.ConfigWebFactory loaded id
+2025-01-14 16:33:33.24 lucee.runtime.config.ConfigWebFactory loaded version
+2025-01-14 16:33:33.31 lucee.runtime.config.ConfigWebFactory loaded security
+2025-01-14 16:33:33.32 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-01-14 16:33:33.32 lucee.runtime.config.ConfigWebFactory loaded system
+2025-01-14 16:33:33.34 lucee.runtime.config.ConfigWebFactory loaded resource providers
+2025-01-14 16:33:33.35 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/tag/Dump.cfc]
+2025-01-14 16:33:33.36 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/tag/build/jquery/jquery-1.12.4.min.js]
+2025-01-14 16:33:33.38 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/writeDump.cfm]
+2025-01-14 16:33:33.38 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/dump.cfm]
+2025-01-14 16:33:33.38 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/location.cfm]
+2025-01-14 16:33:33.38 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/threadJoin.cfm]
+2025-01-14 16:33:33.38 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/threadTerminate.cfm]
+2025-01-14 16:33:33.39 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/throw.cfm]
+2025-01-14 16:33:33.39 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/trace.cfm]
+2025-01-14 16:33:33.39 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/transactionCommit.cfm]
+2025-01-14 16:33:33.39 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/transactionRollback.cfm]
+2025-01-14 16:33:33.40 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/transactionSetsavepoint.cfm]
+2025-01-14 16:33:33.40 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/library/function/writeLog.cfm]
+2025-01-14 16:33:33.40 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-01-14 16:33:33.401 lucee.runtime.config.ConfigWebFactory loaded extension
+2025-01-14 16:33:33.402 lucee.runtime.config.ConfigWebFactory loaded webservice
+2025-01-14 16:33:33.404 lucee.runtime.config.ConfigWebFactory loaded orm
+2025-01-14 16:33:33.406 lucee.runtime.config.ConfigWebFactory loaded cache handlers
+2025-01-14 16:33:33.406 lucee.runtime.config.ConfigWebFactory loaded charset
+2025-01-14 16:33:33.406 lucee.runtime.config.ConfigWebFactory loaded application
+2025-01-14 16:33:33.406 lucee.runtime.config.ConfigWebFactory loaded java
+2025-01-14 16:33:33.416 lucee.runtime.config.ConfigWebFactory loaded mappings
+2025-01-14 16:33:33.418 lucee.runtime.config.ConfigWebFactory loaded rest
+2025-01-14 16:33:33.418 lucee.runtime.config.ConfigWebFactory loaded extensions
+2025-01-14 16:33:33.420 lucee.runtime.config.ConfigWebFactory loaded datasources
+2025-01-14 16:33:33.421 lucee.runtime.config.ConfigWebFactory loaded cache
+2025-01-14 16:33:33.421 lucee.runtime.config.ConfigWebFactory loaded custom tag mappings
+2025-01-14 16:33:33.421 lucee.runtime.config.ConfigWebFactory loaded tags
+2025-01-14 16:33:33.421 lucee.runtime.config.ConfigWebFactory loaded regional
+2025-01-14 16:33:33.421 lucee.runtime.config.ConfigWebFactory loaded compiler
+2025-01-14 16:33:33.422 lucee.runtime.config.ConfigWebFactory loaded scope
+2025-01-14 16:33:33.422 lucee.runtime.config.ConfigWebFactory loaded mail
+2025-01-14 16:33:33.422 lucee.runtime.config.ConfigWebFactory loaded search
+2025-01-14 16:33:33.424 lucee.runtime.config.ConfigWebFactory loaded scheduled tasks
+2025-01-14 16:33:33.424 lucee.runtime.config.ConfigWebFactory loaded debug
+2025-01-14 16:33:33.424 lucee.runtime.config.ConfigWebFactory loaded error
+2025-01-14 16:33:33.425 lucee.runtime.config.ConfigWebFactory loaded regex
+2025-01-14 16:33:33.426 lucee.runtime.config.ConfigWebFactory loaded cfx
+2025-01-14 16:33:33.426 lucee.runtime.config.ConfigWebFactory loaded component
+2025-01-14 16:33:33.426 lucee.runtime.config.ConfigWebFactory loaded update
+2025-01-14 16:33:33.426 lucee.runtime.config.ConfigWebFactory loaded setting
+2025-01-14 16:33:33.427 lucee.runtime.config.ConfigWebFactory loaded proxy
+2025-01-14 16:33:33.430 lucee.runtime.config.ConfigWebFactory loaded remote clients
+2025-01-14 16:33:33.452 lucee.runtime.config.ConfigWebFactory loaded settings2
+2025-01-14 16:33:33.452 lucee.runtime.config.ConfigWebFactory loaded listeners
+2025-01-14 16:33:33.454 lucee.runtime.config.ConfigWebFactory loaded dump writers
+2025-01-14 16:33:33.454 lucee.runtime.config.ConfigWebFactory loaded gateways
+2025-01-14 16:33:33.455 lucee.runtime.config.ConfigWebFactory loaded exe log
+2025-01-14 16:33:33.456 lucee.runtime.config.ConfigWebFactory loaded queue
+2025-01-14 16:33:33.456 lucee.runtime.config.ConfigWebFactory loaded monitors
+2025-01-14 16:33:33.457 lucee.runtime.config.ConfigWebFactory loaded login
+2025-01-14 16:33:33.457 lucee.runtime.config.ConfigWebFactory loaded startup hook
+2025-01-14 16:33:33.457 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/debug/Debug.cfc]
+2025-01-14 16:33:33.458 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/debug/Field.cfc]
+2025-01-14 16:33:33.458 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/debug/Group.cfc]
+2025-01-14 16:33:33.459 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/debug/Classic.cfc]
+2025-01-14 16:33:33.459 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/debug/Simple.cfc]
+2025-01-14 16:33:33.460 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/debug/Modern.cfc]
+2025-01-14 16:33:33.461 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/debug/Comment.cfc]
+2025-01-14 16:33:33.463 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/info/Info.cfc]
+2025-01-14 16:33:33.465 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/dbdriver/types/IDriver.cfc]
+2025-01-14 16:33:33.465 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/dbdriver/types/Driver.cfc]
+2025-01-14 16:33:33.466 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/dbdriver/types/IDatasource.cfc]
+2025-01-14 16:33:33.466 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/dbdriver/types/IDriverSelector.cfc]
+2025-01-14 16:33:33.467 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/dbdriver/types/Field.cfc]
+2025-01-14 16:33:33.467 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/dbdriver/Other.cfc]
+2025-01-14 16:33:33.468 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/cdriver/Cache.cfc]
+2025-01-14 16:33:33.468 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/cdriver/RamCache.cfc]
+2025-01-14 16:33:33.468 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/cdriver/Field.cfc]
+2025-01-14 16:33:33.469 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/cdriver/Group.cfc]
+2025-01-14 16:33:33.469 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/mailservers/Other.cfc]
+2025-01-14 16:33:33.470 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/mailservers/GMail.cfc]
+2025-01-14 16:33:33.471 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/mailservers/GMX.cfc]
+2025-01-14 16:33:33.471 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/mailservers/iCloud.cfc]
+2025-01-14 16:33:33.472 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/mailservers/Yahoo.cfc]
+2025-01-14 16:33:33.472 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/mailservers/Outlook.cfc]
+2025-01-14 16:33:33.473 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/mailservers/MailCom.cfc]
+2025-01-14 16:33:33.473 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/mailservers/MailServer.cfc]
+2025-01-14 16:33:33.473 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/gdriver/TaskGatewayDriver.cfc]
+2025-01-14 16:33:33.474 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/gdriver/AsynchronousEvents.cfc]
+2025-01-14 16:33:33.474 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/gdriver/DirectoryWatcher.cfc]
+2025-01-14 16:33:33.474 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/gdriver/MailWatcher.cfc]
+2025-01-14 16:33:33.475 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/gdriver/Gateway.cfc]
+2025-01-14 16:33:33.475 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/gdriver/Field.cfc]
+2025-01-14 16:33:33.475 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/gdriver/Group.cfc]
+2025-01-14 16:33:33.476 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/logging/appender/DatasourceAppender.cfc]
+2025-01-14 16:33:33.476 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/logging/appender/ConsoleAppender.cfc]
+2025-01-14 16:33:33.476 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/logging/appender/ResourceAppender.cfc]
+2025-01-14 16:33:33.477 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/logging/appender/Appender.cfc]
+2025-01-14 16:33:33.477 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/logging/appender/Field.cfc]
+2025-01-14 16:33:33.478 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/logging/appender/Group.cfc]
+2025-01-14 16:33:33.478 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/logging/layout/DatadogLayout.cfc]
+2025-01-14 16:33:33.478 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/logging/layout/ClassicLayout.cfc]
+2025-01-14 16:33:33.479 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/logging/layout/HTMLLayout.cfc]
+2025-01-14 16:33:33.479 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/logging/layout/PatternLayout.cfc]
+2025-01-14 16:33:33.480 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/logging/layout/XMLLayout.cfc]
+2025-01-14 16:33:33.480 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/logging/layout/JsonLayout.cfc]
+2025-01-14 16:33:33.481 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/logging/layout/Layout.cfc]
+2025-01-14 16:33:33.482 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/logging/layout/Field.cfc]
+2025-01-14 16:33:33.482 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/context/admin/logging/layout/Group.cfc]
+2025-01-14 16:33:33.484 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/security/cacerts]
+2025-01-14 16:33:33.515 lucee.runtime.config.ConfigWebFactory ===================================================================
+WEB CONTEXT (SINGLE) (523d1df2a80eecd007648fa95c08c4ac)
+-------------------------------------------------------------------
+- config:/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context
+- webroot:/media/rbrown/LocalDisk/Public/R_work/WRIS/payroll-matters-payrollmatters.com
+- label:523d1df2a80eecd007648fa95c08c4ac
+===================================================================
+
+2025-01-14 16:33:33.571 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/org/lucee/cfml/HelperBase.cfc]
+2025-01-14 16:33:33.571 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/org/lucee/cfml/Feed.cfc]
+2025-01-14 16:33:33.572 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/org/lucee/cfml/Ftp.cfc]
+2025-01-14 16:33:33.572 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/org/lucee/cfml/Http.cfc]
+2025-01-14 16:33:33.573 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/org/lucee/cfml/Mail.cfc]
+2025-01-14 16:33:33.573 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/org/lucee/cfml/Query.cfc]
+2025-01-14 16:33:33.574 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/org/lucee/cfml/Result.cfc]
+2025-01-14 16:33:33.576 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/org/lucee/cfml/Administrator.cfc]
+2025-01-14 16:33:33.577 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/org/lucee/cfml/Component.cfc]
+2025-01-14 16:33:33.579 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/org/lucee/cfml/orm/IEventHandler.cfc]
+2025-01-14 16:33:33.580 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/org/lucee/cfml/orm/INamingStrategy.cfc]
+2025-01-14 16:33:33.581 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/org/lucee/cfml/test/LuceeTestSuite.cfc]
+2025-01-14 16:33:33.582 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/org/lucee/cfml/test/LuceeTestSuiteRunner.cfc]
+2025-01-14 16:33:33.582 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/org/lucee/cfml/test/LuceeTestCase.cfc]
+2025-01-14 16:33:33.583 lucee.runtime.config.ConfigFactory Written file: [/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context/components/org/lucee/cfml/test/LuceeTestCaseParallel.cfc]
+2025-01-14 17:25:12.830 lucee.runtime.config.ConfigWebFactory start reading config
+2025-01-14 17:25:12.830 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-01-14 17:25:12.832 lucee.runtime.config.ConfigWebFactory reloading configuration
+2025-01-14 17:25:12.832 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-01-14 17:25:12.832 lucee.runtime.config.ConfigWebFactory loaded config
+2025-01-14 17:25:12.832 lucee.runtime.config.ConfigWebFactory loaded constants
+2025-01-14 17:25:12.835 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-01-14 17:25:12.835 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-01-14 17:25:12.836 lucee.runtime.config.ConfigWebFactory loaded id
+2025-01-14 17:25:12.836 lucee.runtime.config.ConfigWebFactory loaded version
+2025-01-14 17:25:12.836 lucee.runtime.config.ConfigWebFactory loaded security
+2025-01-14 17:25:12.836 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-01-14 17:25:12.836 lucee.runtime.config.ConfigWebFactory loaded system
+2025-01-14 17:25:12.837 lucee.runtime.config.ConfigWebFactory loaded resource providers
+2025-01-14 17:25:12.838 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-01-14 17:25:12.838 lucee.runtime.config.ConfigWebFactory loaded extension
+2025-01-14 17:25:12.838 lucee.runtime.config.ConfigWebFactory loaded webservice
+2025-01-14 17:25:12.839 lucee.runtime.config.ConfigWebFactory loaded orm
+2025-01-14 17:25:12.839 lucee.runtime.config.ConfigWebFactory loaded cache handlers
+2025-01-14 17:25:12.839 lucee.runtime.config.ConfigWebFactory loaded charset
+2025-01-14 17:25:12.839 lucee.runtime.config.ConfigWebFactory loaded application
+2025-01-14 17:25:12.839 lucee.runtime.config.ConfigWebFactory loaded java
+2025-01-14 17:25:12.840 lucee.runtime.config.ConfigWebFactory loaded mappings
+2025-01-14 17:25:12.840 lucee.runtime.config.ConfigWebFactory loaded rest
+2025-01-14 17:25:12.840 lucee.runtime.config.ConfigWebFactory loaded extensions
+2025-01-14 17:25:12.840 lucee.runtime.config.ConfigWebFactory loaded datasources
+2025-01-14 17:25:12.840 lucee.runtime.config.ConfigWebFactory loaded cache
+2025-01-14 17:25:12.840 lucee.runtime.config.ConfigWebFactory loaded custom tag mappings
+2025-01-14 17:25:12.840 lucee.runtime.config.ConfigWebFactory loaded tags
+2025-01-14 17:25:12.840 lucee.runtime.config.ConfigWebFactory loaded regional
+2025-01-14 17:25:12.840 lucee.runtime.config.ConfigWebFactory loaded compiler
+2025-01-14 17:25:12.841 lucee.runtime.config.ConfigWebFactory loaded scope
+2025-01-14 17:25:12.841 lucee.runtime.config.ConfigWebFactory loaded mail
+2025-01-14 17:25:12.841 lucee.runtime.config.ConfigWebFactory loaded search
+2025-01-14 17:25:12.841 lucee.runtime.config.ConfigWebFactory loaded scheduled tasks
+2025-01-14 17:25:12.841 lucee.runtime.config.ConfigWebFactory loaded debug
+2025-01-14 17:25:12.841 lucee.runtime.config.ConfigWebFactory loaded error
+2025-01-14 17:25:12.841 lucee.runtime.config.ConfigWebFactory loaded regex
+2025-01-14 17:25:12.841 lucee.runtime.config.ConfigWebFactory loaded cfx
+2025-01-14 17:25:12.842 lucee.runtime.config.ConfigWebFactory loaded component
+2025-01-14 17:25:12.842 lucee.runtime.config.ConfigWebFactory loaded update
+2025-01-14 17:25:12.842 lucee.runtime.config.ConfigWebFactory loaded setting
+2025-01-14 17:25:12.842 lucee.runtime.config.ConfigWebFactory loaded proxy
+2025-01-14 17:25:12.842 lucee.runtime.config.ConfigWebFactory loaded remote clients
+2025-01-14 17:25:12.850 lucee.runtime.config.ConfigWebFactory loaded settings2
+2025-01-14 17:25:12.851 lucee.runtime.config.ConfigWebFactory loaded listeners
+2025-01-14 17:25:12.851 lucee.runtime.config.ConfigWebFactory loaded dump writers
+2025-01-14 17:25:12.851 lucee.runtime.config.ConfigWebFactory loaded gateways
+2025-01-14 17:25:12.851 lucee.runtime.config.ConfigWebFactory loaded exe log
+2025-01-14 17:25:12.852 lucee.runtime.config.ConfigWebFactory loaded queue
+2025-01-14 17:25:12.852 lucee.runtime.config.ConfigWebFactory loaded monitors
+2025-01-14 17:25:12.852 lucee.runtime.config.ConfigWebFactory loaded login
+2025-01-14 17:25:12.852 lucee.runtime.config.ConfigWebFactory loaded startup hook
+2025-01-14 17:36:28.988 lucee.runtime.config.ConfigWebFactory start reading config
+2025-01-14 17:36:28.989 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-01-14 17:36:28.989 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-01-14 17:36:28.989 lucee.runtime.config.ConfigWebFactory loaded config
+2025-01-14 17:36:28.989 lucee.runtime.config.ConfigWebFactory loaded constants
+2025-01-14 17:36:28.993 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-01-14 17:36:28.994 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-01-14 17:36:28.994 lucee.runtime.config.ConfigWebFactory loaded id
+2025-01-14 17:36:28.994 lucee.runtime.config.ConfigWebFactory loaded version
+2025-01-14 17:36:28.994 lucee.runtime.config.ConfigWebFactory loaded security
+2025-01-14 17:36:28.995 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-01-14 17:36:28.995 lucee.runtime.config.ConfigWebFactory loaded system
+2025-01-14 17:36:28.995 lucee.runtime.config.ConfigWebFactory loaded resource providers
+2025-01-14 17:36:28.997 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-01-14 17:36:28.998 lucee.runtime.config.ConfigWebFactory loaded extension
+2025-01-14 17:36:28.998 lucee.runtime.config.ConfigWebFactory loaded webservice
+2025-01-14 17:36:28.998 lucee.runtime.config.ConfigWebFactory loaded orm
+2025-01-14 17:36:28.998 lucee.runtime.config.ConfigWebFactory loaded cache handlers
+2025-01-14 17:36:28.999 lucee.runtime.config.ConfigWebFactory loaded charset
+2025-01-14 17:36:28.999 lucee.runtime.config.ConfigWebFactory loaded application
+2025-01-14 17:36:28.999 lucee.runtime.config.ConfigWebFactory loaded java
+2025-01-14 17:36:29.0 lucee.runtime.config.ConfigWebFactory loaded mappings
+2025-01-14 17:36:29.0 lucee.runtime.config.ConfigWebFactory loaded rest
+2025-01-14 17:36:29.0 lucee.runtime.config.ConfigWebFactory loaded extensions
+2025-01-14 17:36:29.1 lucee.runtime.config.ConfigWebFactory loaded datasources
+2025-01-14 17:36:29.1 lucee.runtime.config.ConfigWebFactory loaded cache
+2025-01-14 17:36:29.1 lucee.runtime.config.ConfigWebFactory loaded custom tag mappings
+2025-01-14 17:36:29.1 lucee.runtime.config.ConfigWebFactory loaded tags
+2025-01-14 17:36:29.1 lucee.runtime.config.ConfigWebFactory loaded regional
+2025-01-14 17:36:29.2 lucee.runtime.config.ConfigWebFactory loaded compiler
+2025-01-14 17:36:29.2 lucee.runtime.config.ConfigWebFactory loaded scope
+2025-01-14 17:36:29.2 lucee.runtime.config.ConfigWebFactory loaded mail
+2025-01-14 17:36:29.2 lucee.runtime.config.ConfigWebFactory loaded search
+2025-01-14 17:36:29.2 lucee.runtime.config.ConfigWebFactory loaded scheduled tasks
+2025-01-14 17:36:29.2 lucee.runtime.config.ConfigWebFactory loaded debug
+2025-01-14 17:36:29.2 lucee.runtime.config.ConfigWebFactory loaded error
+2025-01-14 17:36:29.2 lucee.runtime.config.ConfigWebFactory loaded regex
+2025-01-14 17:36:29.2 lucee.runtime.config.ConfigWebFactory loaded cfx
+2025-01-14 17:36:29.3 lucee.runtime.config.ConfigWebFactory loaded component
+2025-01-14 17:36:29.3 lucee.runtime.config.ConfigWebFactory loaded update
+2025-01-14 17:36:29.3 lucee.runtime.config.ConfigWebFactory loaded setting
+2025-01-14 17:36:29.3 lucee.runtime.config.ConfigWebFactory loaded proxy
+2025-01-14 17:36:29.3 lucee.runtime.config.ConfigWebFactory loaded remote clients
+2025-01-14 17:36:29.14 lucee.runtime.config.ConfigWebFactory loaded settings2
+2025-01-14 17:36:29.15 lucee.runtime.config.ConfigWebFactory loaded listeners
+2025-01-14 17:36:29.15 lucee.runtime.config.ConfigWebFactory loaded dump writers
+2025-01-14 17:36:29.15 lucee.runtime.config.ConfigWebFactory loaded gateways
+2025-01-14 17:36:29.15 lucee.runtime.config.ConfigWebFactory loaded exe log
+2025-01-14 17:36:29.15 lucee.runtime.config.ConfigWebFactory loaded queue
+2025-01-14 17:36:29.16 lucee.runtime.config.ConfigWebFactory loaded monitors
+2025-01-14 17:36:29.16 lucee.runtime.config.ConfigWebFactory loaded login
+2025-01-14 17:36:29.16 lucee.runtime.config.ConfigWebFactory loaded startup hook
+2025-01-14 17:39:39.16 lucee.runtime.config.ConfigWebFactory start reading config
+2025-01-14 17:39:39.16 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-01-14 17:39:39.16 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-01-14 17:39:39.16 lucee.runtime.config.ConfigWebFactory loaded config
+2025-01-14 17:39:39.16 lucee.runtime.config.ConfigWebFactory loaded constants
+2025-01-14 17:39:39.19 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-01-14 17:39:39.20 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-01-14 17:39:39.20 lucee.runtime.config.ConfigWebFactory loaded id
+2025-01-14 17:39:39.20 lucee.runtime.config.ConfigWebFactory loaded version
+2025-01-14 17:39:39.20 lucee.runtime.config.ConfigWebFactory loaded security
+2025-01-14 17:39:39.21 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-01-14 17:39:39.21 lucee.runtime.config.ConfigWebFactory loaded system
+2025-01-14 17:39:39.21 lucee.runtime.config.ConfigWebFactory loaded resource providers
+2025-01-14 17:39:39.22 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-01-14 17:39:39.22 lucee.runtime.config.ConfigWebFactory loaded extension
+2025-01-14 17:39:39.23 lucee.runtime.config.ConfigWebFactory loaded webservice
+2025-01-14 17:39:39.23 lucee.runtime.config.ConfigWebFactory loaded orm
+2025-01-14 17:39:39.23 lucee.runtime.config.ConfigWebFactory loaded cache handlers
+2025-01-14 17:39:39.23 lucee.runtime.config.ConfigWebFactory loaded charset
+2025-01-14 17:39:39.23 lucee.runtime.config.ConfigWebFactory loaded application
+2025-01-14 17:39:39.23 lucee.runtime.config.ConfigWebFactory loaded java
+2025-01-14 17:39:39.24 lucee.runtime.config.ConfigWebFactory loaded mappings
+2025-01-14 17:39:39.24 lucee.runtime.config.ConfigWebFactory loaded rest
+2025-01-14 17:39:39.24 lucee.runtime.config.ConfigWebFactory loaded extensions
+2025-01-14 17:39:39.25 lucee.runtime.config.ConfigWebFactory loaded datasources
+2025-01-14 17:39:39.25 lucee.runtime.config.ConfigWebFactory loaded cache
+2025-01-14 17:39:39.25 lucee.runtime.config.ConfigWebFactory loaded custom tag mappings
+2025-01-14 17:39:39.25 lucee.runtime.config.ConfigWebFactory loaded tags
+2025-01-14 17:39:39.25 lucee.runtime.config.ConfigWebFactory loaded regional
+2025-01-14 17:39:39.25 lucee.runtime.config.ConfigWebFactory loaded compiler
+2025-01-14 17:39:39.25 lucee.runtime.config.ConfigWebFactory loaded scope
+2025-01-14 17:39:39.26 lucee.runtime.config.ConfigWebFactory loaded mail
+2025-01-14 17:39:39.26 lucee.runtime.config.ConfigWebFactory loaded search
+2025-01-14 17:39:39.26 lucee.runtime.config.ConfigWebFactory loaded scheduled tasks
+2025-01-14 17:39:39.26 lucee.runtime.config.ConfigWebFactory loaded debug
+2025-01-14 17:39:39.26 lucee.runtime.config.ConfigWebFactory loaded error
+2025-01-14 17:39:39.26 lucee.runtime.config.ConfigWebFactory loaded regex
+2025-01-14 17:39:39.26 lucee.runtime.config.ConfigWebFactory loaded cfx
+2025-01-14 17:39:39.26 lucee.runtime.config.ConfigWebFactory loaded component
+2025-01-14 17:39:39.26 lucee.runtime.config.ConfigWebFactory loaded update
+2025-01-14 17:39:39.26 lucee.runtime.config.ConfigWebFactory loaded setting
+2025-01-14 17:39:39.26 lucee.runtime.config.ConfigWebFactory loaded proxy
+2025-01-14 17:39:39.26 lucee.runtime.config.ConfigWebFactory loaded remote clients
+2025-01-14 17:39:39.31 lucee.runtime.config.ConfigWebFactory loaded settings2
+2025-01-14 17:39:39.31 lucee.runtime.config.ConfigWebFactory loaded listeners
+2025-01-14 17:39:39.31 lucee.runtime.config.ConfigWebFactory loaded dump writers
+2025-01-14 17:39:39.31 lucee.runtime.config.ConfigWebFactory loaded gateways
+2025-01-14 17:39:39.31 lucee.runtime.config.ConfigWebFactory loaded exe log
+2025-01-14 17:39:39.31 lucee.runtime.config.ConfigWebFactory loaded queue
+2025-01-14 17:39:39.32 lucee.runtime.config.ConfigWebFactory loaded monitors
+2025-01-14 17:39:39.32 lucee.runtime.config.ConfigWebFactory loaded login
+2025-01-14 17:39:39.32 lucee.runtime.config.ConfigWebFactory loaded startup hook
+2025-01-14 17:40:44.562 lucee.runtime.config.ConfigWebFactory start reading config
+2025-01-14 17:40:44.562 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-01-14 17:40:44.562 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-01-14 17:40:44.562 lucee.runtime.config.ConfigWebFactory loaded config
+2025-01-14 17:40:44.562 lucee.runtime.config.ConfigWebFactory loaded constants
+2025-01-14 17:40:44.565 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-01-14 17:40:44.565 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-01-14 17:40:44.565 lucee.runtime.config.ConfigWebFactory loaded id
+2025-01-14 17:40:44.565 lucee.runtime.config.ConfigWebFactory loaded version
+2025-01-14 17:40:44.565 lucee.runtime.config.ConfigWebFactory loaded security
+2025-01-14 17:40:44.565 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-01-14 17:40:44.565 lucee.runtime.config.ConfigWebFactory loaded system
+2025-01-14 17:40:44.566 lucee.runtime.config.ConfigWebFactory loaded resource providers
+2025-01-14 17:40:44.568 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-01-14 17:40:44.569 lucee.runtime.config.ConfigWebFactory loaded extension
+2025-01-14 17:40:44.569 lucee.runtime.config.ConfigWebFactory loaded webservice
+2025-01-14 17:40:44.569 lucee.runtime.config.ConfigWebFactory loaded orm
+2025-01-14 17:40:44.569 lucee.runtime.config.ConfigWebFactory loaded cache handlers
+2025-01-14 17:40:44.569 lucee.runtime.config.ConfigWebFactory loaded charset
+2025-01-14 17:40:44.569 lucee.runtime.config.ConfigWebFactory loaded application
+2025-01-14 17:40:44.569 lucee.runtime.config.ConfigWebFactory loaded java
+2025-01-14 17:40:44.569 lucee.runtime.config.ConfigWebFactory loaded mappings
+2025-01-14 17:40:44.569 lucee.runtime.config.ConfigWebFactory loaded rest
+2025-01-14 17:40:44.569 lucee.runtime.config.ConfigWebFactory loaded extensions
+2025-01-14 17:40:44.570 lucee.runtime.config.ConfigWebFactory loaded datasources
+2025-01-14 17:40:44.570 lucee.runtime.config.ConfigWebFactory loaded cache
+2025-01-14 17:40:44.570 lucee.runtime.config.ConfigWebFactory loaded custom tag mappings
+2025-01-14 17:40:44.570 lucee.runtime.config.ConfigWebFactory loaded tags
+2025-01-14 17:40:44.571 lucee.runtime.config.ConfigWebFactory loaded regional
+2025-01-14 17:40:44.571 lucee.runtime.config.ConfigWebFactory loaded compiler
+2025-01-14 17:40:44.571 lucee.runtime.config.ConfigWebFactory loaded scope
+2025-01-14 17:40:44.571 lucee.runtime.config.ConfigWebFactory loaded mail
+2025-01-14 17:40:44.571 lucee.runtime.config.ConfigWebFactory loaded search
+2025-01-14 17:40:44.571 lucee.runtime.config.ConfigWebFactory loaded scheduled tasks
+2025-01-14 17:40:44.571 lucee.runtime.config.ConfigWebFactory loaded debug
+2025-01-14 17:40:44.571 lucee.runtime.config.ConfigWebFactory loaded error
+2025-01-14 17:40:44.571 lucee.runtime.config.ConfigWebFactory loaded regex
+2025-01-14 17:40:44.571 lucee.runtime.config.ConfigWebFactory loaded cfx
+2025-01-14 17:40:44.572 lucee.runtime.config.ConfigWebFactory loaded component
+2025-01-14 17:40:44.572 lucee.runtime.config.ConfigWebFactory loaded update
+2025-01-14 17:40:44.573 lucee.runtime.config.ConfigWebFactory loaded setting
+2025-01-14 17:40:44.573 lucee.runtime.config.ConfigWebFactory loaded proxy
+2025-01-14 17:40:44.573 lucee.runtime.config.ConfigWebFactory loaded remote clients
+2025-01-14 17:40:44.581 lucee.runtime.config.ConfigWebFactory loaded settings2
+2025-01-14 17:40:44.581 lucee.runtime.config.ConfigWebFactory loaded listeners
+2025-01-14 17:40:44.581 lucee.runtime.config.ConfigWebFactory loaded dump writers
+2025-01-14 17:40:44.581 lucee.runtime.config.ConfigWebFactory loaded gateways
+2025-01-14 17:40:44.581 lucee.runtime.config.ConfigWebFactory loaded exe log
+2025-01-14 17:40:44.581 lucee.runtime.config.ConfigWebFactory loaded queue
+2025-01-14 17:40:44.582 lucee.runtime.config.ConfigWebFactory loaded monitors
+2025-01-14 17:40:44.582 lucee.runtime.config.ConfigWebFactory loaded login
+2025-01-14 17:40:44.582 lucee.runtime.config.ConfigWebFactory loaded startup hook
+2025-01-14 17:42:25.313 lucee.runtime.config.ConfigWebFactory start reading config
+2025-01-14 17:42:25.313 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-01-14 17:42:25.313 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-01-14 17:42:25.313 lucee.runtime.config.ConfigWebFactory loaded config
+2025-01-14 17:42:25.313 lucee.runtime.config.ConfigWebFactory loaded constants
+2025-01-14 17:42:25.316 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-01-14 17:42:25.316 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-01-14 17:42:25.316 lucee.runtime.config.ConfigWebFactory loaded id
+2025-01-14 17:42:25.316 lucee.runtime.config.ConfigWebFactory loaded version
+2025-01-14 17:42:25.317 lucee.runtime.config.ConfigWebFactory loaded security
+2025-01-14 17:42:25.317 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-01-14 17:42:25.317 lucee.runtime.config.ConfigWebFactory loaded system
+2025-01-14 17:42:25.317 lucee.runtime.config.ConfigWebFactory loaded resource providers
+2025-01-14 17:42:25.318 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-01-14 17:42:25.318 lucee.runtime.config.ConfigWebFactory loaded extension
+2025-01-14 17:42:25.318 lucee.runtime.config.ConfigWebFactory loaded webservice
+2025-01-14 17:42:25.318 lucee.runtime.config.ConfigWebFactory loaded orm
+2025-01-14 17:42:25.318 lucee.runtime.config.ConfigWebFactory loaded cache handlers
+2025-01-14 17:42:25.318 lucee.runtime.config.ConfigWebFactory loaded charset
+2025-01-14 17:42:25.319 lucee.runtime.config.ConfigWebFactory loaded application
+2025-01-14 17:42:25.319 lucee.runtime.config.ConfigWebFactory loaded java
+2025-01-14 17:42:25.319 lucee.runtime.config.ConfigWebFactory loaded mappings
+2025-01-14 17:42:25.319 lucee.runtime.config.ConfigWebFactory loaded rest
+2025-01-14 17:42:25.319 lucee.runtime.config.ConfigWebFactory loaded extensions
+2025-01-14 17:42:25.319 lucee.runtime.config.ConfigWebFactory loaded datasources
+2025-01-14 17:42:25.320 lucee.runtime.config.ConfigWebFactory loaded cache
+2025-01-14 17:42:25.320 lucee.runtime.config.ConfigWebFactory loaded custom tag mappings
+2025-01-14 17:42:25.320 lucee.runtime.config.ConfigWebFactory loaded tags
+2025-01-14 17:42:25.320 lucee.runtime.config.ConfigWebFactory loaded regional
+2025-01-14 17:42:25.320 lucee.runtime.config.ConfigWebFactory loaded compiler
+2025-01-14 17:42:25.320 lucee.runtime.config.ConfigWebFactory loaded scope
+2025-01-14 17:42:25.320 lucee.runtime.config.ConfigWebFactory loaded mail
+2025-01-14 17:42:25.320 lucee.runtime.config.ConfigWebFactory loaded search
+2025-01-14 17:42:25.320 lucee.runtime.config.ConfigWebFactory loaded scheduled tasks
+2025-01-14 17:42:25.320 lucee.runtime.config.ConfigWebFactory loaded debug
+2025-01-14 17:42:25.320 lucee.runtime.config.ConfigWebFactory loaded error
+2025-01-14 17:42:25.320 lucee.runtime.config.ConfigWebFactory loaded regex
+2025-01-14 17:42:25.320 lucee.runtime.config.ConfigWebFactory loaded cfx
+2025-01-14 17:42:25.321 lucee.runtime.config.ConfigWebFactory loaded component
+2025-01-14 17:42:25.321 lucee.runtime.config.ConfigWebFactory loaded update
+2025-01-14 17:42:25.321 lucee.runtime.config.ConfigWebFactory loaded setting
+2025-01-14 17:42:25.321 lucee.runtime.config.ConfigWebFactory loaded proxy
+2025-01-14 17:42:25.321 lucee.runtime.config.ConfigWebFactory loaded remote clients
+2025-01-14 17:42:25.326 lucee.runtime.config.ConfigWebFactory loaded settings2
+2025-01-14 17:42:25.326 lucee.runtime.config.ConfigWebFactory loaded listeners
+2025-01-14 17:42:25.326 lucee.runtime.config.ConfigWebFactory loaded dump writers
+2025-01-14 17:42:25.326 lucee.runtime.config.ConfigWebFactory loaded gateways
+2025-01-14 17:42:25.326 lucee.runtime.config.ConfigWebFactory loaded exe log
+2025-01-14 17:42:25.326 lucee.runtime.config.ConfigWebFactory loaded queue
+2025-01-14 17:42:25.326 lucee.runtime.config.ConfigWebFactory loaded monitors
+2025-01-14 17:42:25.327 lucee.runtime.config.ConfigWebFactory loaded login
+2025-01-14 17:42:25.327 lucee.runtime.config.ConfigWebFactory loaded startup hook
+2025-01-18 12:24:28.392 lucee.runtime.config.ConfigServerFactory ===================================================================
+SERVER CONTEXT
+-------------------------------------------------------------------
+- config:/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context
+- loader-version:6.3
+- core-version:6.1.1.118
+===================================================================
+
+2025-01-18 12:24:28.732 lucee.runtime.config.ConfigServerFactory load config file
+2025-01-18 12:24:28.841 lucee.runtime.config.ConfigWebFactory start reading config
+2025-01-18 12:24:28.842 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-01-18 12:24:28.842 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-01-18 12:24:28.846 lucee.runtime.config.ConfigWebFactory loaded config
+2025-01-18 12:24:29.76 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-01-18 12:24:29.94 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-01-18 12:24:29.96 lucee.runtime.config.ConfigWebFactory loaded id
+2025-01-18 12:24:29.96 lucee.runtime.config.ConfigWebFactory loaded version
+2025-01-18 12:24:29.97 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-01-18 12:24:29.173 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-01-18 12:24:29.174 lucee.runtime.config.ConfigWebFactory loaded extension definitions
+2025-01-18 12:24:29.180 lucee.runtime.config.ConfigWebFactory loaded application
+2025-01-18 12:24:29.181 lucee.runtime.config.ConfigWebFactory loaded java
+2025-01-18 12:24:29.209 lucee.runtime.config.ConfigServerFactory ===================================================================
+SERVER CONTEXT
+-------------------------------------------------------------------
+- config:/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context
+- loader-version:6.3
+- core-version:6.1.1.118
+===================================================================
+
+2025-01-18 12:24:29.210 lucee.runtime.config.ConfigServerFactory load config file
+2025-01-18 12:24:29.264 lucee.runtime.config.ConfigWebFactory start reading config
+2025-01-18 12:24:29.264 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-01-18 12:24:29.265 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-01-18 12:24:29.265 lucee.runtime.config.ConfigWebFactory loaded config
+2025-01-18 12:24:29.265 lucee.runtime.config.ConfigWebFactory loaded constants
+2025-01-18 12:24:29.277 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-01-18 12:24:29.278 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-01-18 12:24:29.279 lucee.runtime.config.ConfigWebFactory loaded id
+2025-01-18 12:24:29.279 lucee.runtime.config.ConfigWebFactory loaded version
+2025-01-18 12:24:29.291 lucee.runtime.config.ConfigWebFactory loaded security
+2025-01-18 12:24:29.291 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-01-18 12:24:29.292 lucee.runtime.config.ConfigWebFactory loaded system
+2025-01-18 12:24:29.294 lucee.runtime.config.ConfigWebFactory loaded resource providers
+2025-01-18 12:24:29.297 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-01-18 12:24:30.79 lucee.runtime.config.ConfigWebFactory loaded extension
+2025-01-18 12:24:30.80 lucee.runtime.config.ConfigWebFactory loaded webservice
+2025-01-18 12:24:30.82 lucee.runtime.config.ConfigWebFactory loaded orm
+2025-01-18 12:24:30.84 lucee.runtime.config.ConfigWebFactory loaded cache handlers
+2025-01-18 12:24:30.85 lucee.runtime.config.ConfigWebFactory loaded charset
+2025-01-18 12:24:30.85 lucee.runtime.config.ConfigWebFactory loaded application
+2025-01-18 12:24:30.85 lucee.runtime.config.ConfigWebFactory loaded java
+2025-01-18 12:24:30.111 lucee.runtime.config.ConfigWebFactory loaded mappings
+2025-01-18 12:24:30.114 lucee.runtime.config.ConfigWebFactory loaded rest
+2025-01-18 12:24:30.115 lucee.runtime.config.ConfigWebFactory loaded extensions
+2025-01-18 12:24:30.135 lucee.runtime.config.ConfigWebFactory loaded datasources
+2025-01-18 12:24:30.137 lucee.runtime.config.ConfigWebFactory loaded cache
+2025-01-18 12:24:30.138 lucee.runtime.config.ConfigWebFactory loaded custom tag mappings
+2025-01-18 12:24:30.138 lucee.runtime.config.ConfigWebFactory loaded tags
+2025-01-18 12:24:30.138 lucee.runtime.config.ConfigWebFactory loaded regional
+2025-01-18 12:24:30.138 lucee.runtime.config.ConfigWebFactory loaded compiler
+2025-01-18 12:24:30.138 lucee.runtime.config.ConfigWebFactory loaded scope
+2025-01-18 12:24:30.140 lucee.runtime.config.ConfigWebFactory loaded mail
+2025-01-18 12:24:30.141 lucee.runtime.config.ConfigWebFactory loaded search
+2025-01-18 12:24:30.143 lucee.runtime.config.ConfigWebFactory loaded scheduled tasks
+2025-01-18 12:24:30.144 lucee.runtime.config.ConfigWebFactory loaded debug
+2025-01-18 12:24:30.144 lucee.runtime.config.ConfigWebFactory loaded error
+2025-01-18 12:24:30.145 lucee.runtime.config.ConfigWebFactory loaded regex
+2025-01-18 12:24:30.146 lucee.runtime.config.ConfigWebFactory loaded cfx
+2025-01-18 12:24:30.147 lucee.runtime.config.ConfigWebFactory loaded component
+2025-01-18 12:24:30.147 lucee.runtime.config.ConfigWebFactory loaded update
+2025-01-18 12:24:30.147 lucee.runtime.config.ConfigWebFactory loaded setting
+2025-01-18 12:24:30.148 lucee.runtime.config.ConfigWebFactory loaded proxy
+2025-01-18 12:24:30.150 lucee.runtime.config.ConfigWebFactory loaded remote clients
+2025-01-18 12:24:30.183 lucee.runtime.config.ConfigWebFactory loaded settings2
+2025-01-18 12:24:30.183 lucee.runtime.config.ConfigWebFactory loaded listeners
+2025-01-18 12:24:30.186 lucee.runtime.config.ConfigWebFactory loaded dump writers
+2025-01-18 12:24:30.186 lucee.runtime.config.ConfigWebFactory loaded gateways
+2025-01-18 12:24:30.189 lucee.runtime.config.ConfigWebFactory loaded exe log
+2025-01-18 12:24:30.190 lucee.runtime.config.ConfigWebFactory loaded queue
+2025-01-18 12:24:30.192 lucee.runtime.config.ConfigWebFactory loaded monitors
+2025-01-18 12:24:30.193 lucee.runtime.config.ConfigWebFactory loaded login
+2025-01-18 12:24:30.193 lucee.runtime.config.ConfigWebFactory loaded startup hook
+2025-01-18 12:24:30.285 lucee.runtime.config.ConfigWebFactory ===================================================================
+WEB CONTEXT (SINGLE) (523d1df2a80eecd007648fa95c08c4ac)
+-------------------------------------------------------------------
+- config:/media/data/home/rbrown/.CommandBox/server/627A2B6F79A39DBC9AB93B2F1CFA04A9-payroll-matters-payrollmatters.com/lucee-6.1.1.118/WEB-INF/lucee-server/context
+- webroot:/media/rbrown/LocalDisk/Public/R_work/WRIS/payroll-matters-payrollmatters.com
+- label:523d1df2a80eecd007648fa95c08c4ac
+===================================================================
+
+2025-01-18 12:28:52.935 lucee.runtime.config.ConfigWebFactory start reading config
+2025-01-18 12:28:52.935 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-01-18 12:28:52.935 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-01-18 12:28:52.935 lucee.runtime.config.ConfigWebFactory loaded config
+2025-01-18 12:28:52.935 lucee.runtime.config.ConfigWebFactory loaded constants
+2025-01-18 12:28:52.940 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-01-18 12:28:52.940 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-01-18 12:28:52.940 lucee.runtime.config.ConfigWebFactory loaded id
+2025-01-18 12:28:52.940 lucee.runtime.config.ConfigWebFactory loaded version
+2025-01-18 12:28:52.941 lucee.runtime.config.ConfigWebFactory loaded security
+2025-01-18 12:28:52.941 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-01-18 12:28:52.941 lucee.runtime.config.ConfigWebFactory loaded system
+2025-01-18 12:28:52.941 lucee.runtime.config.ConfigWebFactory loaded resource providers
+2025-01-18 12:28:52.942 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-01-18 12:28:53.330 lucee.runtime.config.ConfigWebFactory loaded extension
+2025-01-18 12:28:53.331 lucee.runtime.config.ConfigWebFactory loaded webservice
+2025-01-18 12:28:53.331 lucee.runtime.config.ConfigWebFactory loaded orm
+2025-01-18 12:28:53.331 lucee.runtime.config.ConfigWebFactory loaded cache handlers
+2025-01-18 12:28:53.331 lucee.runtime.config.ConfigWebFactory loaded charset
+2025-01-18 12:28:53.331 lucee.runtime.config.ConfigWebFactory loaded application
+2025-01-18 12:28:53.331 lucee.runtime.config.ConfigWebFactory loaded java
+2025-01-18 12:28:53.332 lucee.runtime.config.ConfigWebFactory loaded mappings
+2025-01-18 12:28:53.332 lucee.runtime.config.ConfigWebFactory loaded rest
+2025-01-18 12:28:53.332 lucee.runtime.config.ConfigWebFactory loaded extensions
+2025-01-18 12:28:53.332 lucee.runtime.config.ConfigWebFactory loaded datasources
+2025-01-18 12:28:53.332 lucee.runtime.config.ConfigWebFactory loaded cache
+2025-01-18 12:28:53.333 lucee.runtime.config.ConfigWebFactory loaded custom tag mappings
+2025-01-18 12:28:53.333 lucee.runtime.config.ConfigWebFactory loaded tags
+2025-01-18 12:28:53.333 lucee.runtime.config.ConfigWebFactory loaded regional
+2025-01-18 12:28:53.333 lucee.runtime.config.ConfigWebFactory loaded compiler
+2025-01-18 12:28:53.333 lucee.runtime.config.ConfigWebFactory loaded scope
+2025-01-18 12:28:53.333 lucee.runtime.config.ConfigWebFactory loaded mail
+2025-01-18 12:28:53.333 lucee.runtime.config.ConfigWebFactory loaded search
+2025-01-18 12:28:53.333 lucee.runtime.config.ConfigWebFactory loaded scheduled tasks
+2025-01-18 12:28:53.334 lucee.runtime.config.ConfigWebFactory loaded debug
+2025-01-18 12:28:53.334 lucee.runtime.config.ConfigWebFactory loaded error
+2025-01-18 12:28:53.334 lucee.runtime.config.ConfigWebFactory loaded regex
+2025-01-18 12:28:53.334 lucee.runtime.config.ConfigWebFactory loaded cfx
+2025-01-18 12:28:53.334 lucee.runtime.config.ConfigWebFactory loaded component
+2025-01-18 12:28:53.334 lucee.runtime.config.ConfigWebFactory loaded update
+2025-01-18 12:28:53.334 lucee.runtime.config.ConfigWebFactory loaded setting
+2025-01-18 12:28:53.334 lucee.runtime.config.ConfigWebFactory loaded proxy
+2025-01-18 12:28:53.334 lucee.runtime.config.ConfigWebFactory loaded remote clients
+2025-01-18 12:28:53.341 lucee.runtime.config.ConfigWebFactory loaded settings2
+2025-01-18 12:28:53.341 lucee.runtime.config.ConfigWebFactory loaded listeners
+2025-01-18 12:28:53.341 lucee.runtime.config.ConfigWebFactory loaded dump writers
+2025-01-18 12:28:53.341 lucee.runtime.config.ConfigWebFactory loaded gateways
+2025-01-18 12:28:53.341 lucee.runtime.config.ConfigWebFactory loaded exe log
+2025-01-18 12:28:53.341 lucee.runtime.config.ConfigWebFactory loaded queue
+2025-01-18 12:28:53.341 lucee.runtime.config.ConfigWebFactory loaded monitors
+2025-01-18 12:28:53.341 lucee.runtime.config.ConfigWebFactory loaded login
+2025-01-18 12:28:53.342 lucee.runtime.config.ConfigWebFactory loaded startup hook
+2025-06-09 18:51:37.676 lucee.runtime.config.ConfigServerFactory ===================================================================
+SERVER CONTEXT
+-------------------------------------------------------------------
+- config:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/lucee-server/context
+- loader-version:6.1
+- core-version:6.1.1.118
+===================================================================
+
+2025-06-09 18:51:37.858 lucee.runtime.config.ConfigServerFactory load config file
+2025-06-09 18:51:37.938 lucee.runtime.config.ConfigWebFactory start reading config
+2025-06-09 18:51:37.938 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-06-09 18:51:37.938 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-06-09 18:51:37.939 lucee.runtime.config.ConfigWebFactory loaded config
+2025-06-09 18:51:38.75 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-06-09 18:51:38.88 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-06-09 18:51:38.91 lucee.runtime.config.ConfigWebFactory loaded id
+2025-06-09 18:51:38.92 lucee.runtime.config.ConfigWebFactory loaded version
+2025-06-09 18:51:38.92 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-06-09 18:51:38.154 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-06-09 18:51:38.156 lucee.runtime.config.ConfigWebFactory loaded extension definitions
+2025-06-09 18:51:38.162 lucee.runtime.config.ConfigWebFactory loaded application
+2025-06-09 18:51:38.162 lucee.runtime.config.ConfigWebFactory loaded java
+2025-06-09 18:51:38.171 lucee.runtime.config.ConfigServerFactory ===================================================================
+SERVER CONTEXT
+-------------------------------------------------------------------
+- config:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/lucee-server/context
+- loader-version:6.1
+- core-version:6.1.1.118
+===================================================================
+
+2025-06-09 18:51:38.171 lucee.runtime.config.ConfigServerFactory load config file
+2025-06-09 18:51:38.189 lucee.runtime.config.ConfigWebFactory start reading config
+2025-06-09 18:51:38.189 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-06-09 18:51:38.189 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-06-09 18:51:38.189 lucee.runtime.config.ConfigWebFactory loaded config
+2025-06-09 18:51:38.189 lucee.runtime.config.ConfigWebFactory loaded constants
+2025-06-09 18:51:38.193 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-06-09 18:51:38.194 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-06-09 18:51:38.194 lucee.runtime.config.ConfigWebFactory loaded id
+2025-06-09 18:51:38.194 lucee.runtime.config.ConfigWebFactory loaded version
+2025-06-09 18:51:38.200 lucee.runtime.config.ConfigWebFactory loaded security
+2025-06-09 18:51:38.200 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-06-09 18:51:38.200 lucee.runtime.config.ConfigWebFactory loaded system
+2025-06-09 18:51:38.202 lucee.runtime.config.ConfigWebFactory loaded resource providers
+2025-06-09 18:51:38.204 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-06-09 18:51:38.726 lucee.runtime.config.ConfigWebFactory loaded extension
+2025-06-09 18:51:38.726 lucee.runtime.config.ConfigWebFactory loaded webservice
+2025-06-09 18:51:38.728 lucee.runtime.config.ConfigWebFactory loaded orm
+2025-06-09 18:51:38.731 lucee.runtime.config.ConfigWebFactory loaded cache handlers
+2025-06-09 18:51:38.731 lucee.runtime.config.ConfigWebFactory loaded charset
+2025-06-09 18:51:38.732 lucee.runtime.config.ConfigWebFactory loaded application
+2025-06-09 18:51:38.732 lucee.runtime.config.ConfigWebFactory loaded java
+2025-06-09 18:51:38.749 lucee.runtime.config.ConfigWebFactory loaded mappings
+2025-06-09 18:51:38.751 lucee.runtime.config.ConfigWebFactory loaded rest
+2025-06-09 18:51:38.751 lucee.runtime.config.ConfigWebFactory loaded extensions
+2025-06-09 18:51:38.773 lucee.runtime.config.ConfigWebFactory loaded datasources
+2025-06-09 18:51:38.776 lucee.runtime.config.ConfigWebFactory loaded cache
+2025-06-09 18:51:38.777 lucee.runtime.config.ConfigWebFactory loaded custom tag mappings
+2025-06-09 18:51:38.777 lucee.runtime.config.ConfigWebFactory loaded tags
+2025-06-09 18:51:38.777 lucee.runtime.config.ConfigWebFactory loaded regional
+2025-06-09 18:51:38.777 lucee.runtime.config.ConfigWebFactory loaded compiler
+2025-06-09 18:51:38.778 lucee.runtime.config.ConfigWebFactory loaded scope
+2025-06-09 18:51:38.779 lucee.runtime.config.ConfigWebFactory loaded mail
+2025-06-09 18:51:38.780 lucee.runtime.config.ConfigWebFactory loaded search
+2025-06-09 18:51:38.783 lucee.runtime.config.ConfigWebFactory loaded scheduled tasks
+2025-06-09 18:51:38.784 lucee.runtime.config.ConfigWebFactory loaded debug
+2025-06-09 18:51:38.784 lucee.runtime.config.ConfigWebFactory loaded error
+2025-06-09 18:51:38.786 lucee.runtime.config.ConfigWebFactory loaded regex
+2025-06-09 18:51:38.788 lucee.runtime.config.ConfigWebFactory loaded cfx
+2025-06-09 18:51:38.789 lucee.runtime.config.ConfigWebFactory loaded component
+2025-06-09 18:51:38.789 lucee.runtime.config.ConfigWebFactory loaded update
+2025-06-09 18:51:38.789 lucee.runtime.config.ConfigWebFactory loaded setting
+2025-06-09 18:51:38.791 lucee.runtime.config.ConfigWebFactory loaded proxy
+2025-06-09 18:51:38.795 lucee.runtime.config.ConfigWebFactory loaded remote clients
+2025-06-09 18:51:38.830 lucee.runtime.config.ConfigWebFactory loaded settings2
+2025-06-09 18:51:38.830 lucee.runtime.config.ConfigWebFactory loaded listeners
+2025-06-09 18:51:38.834 lucee.runtime.config.ConfigWebFactory loaded dump writers
+2025-06-09 18:51:38.835 lucee.runtime.config.ConfigWebFactory loaded gateways
+2025-06-09 18:51:38.838 lucee.runtime.config.ConfigWebFactory loaded exe log
+2025-06-09 18:51:38.838 lucee.runtime.config.ConfigWebFactory loaded queue
+2025-06-09 18:51:38.841 lucee.runtime.config.ConfigWebFactory loaded monitors
+2025-06-09 18:51:38.842 lucee.runtime.config.ConfigWebFactory loaded login
+2025-06-09 18:51:38.842 lucee.runtime.config.ConfigWebFactory loaded startup hook
+2025-06-09 18:51:38.901 lucee.runtime.config.ConfigWebFactory ===================================================================
+WEB CONTEXT (SINGLE) (c03635fa4bc259255923d89a87dceac0)
+-------------------------------------------------------------------
+- config:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/lucee-server/context
+- webroot:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/webapps/ROOT
+- label:c03635fa4bc259255923d89a87dceac0
+===================================================================
+
+2025-06-09 19:06:54.134 lucee.runtime.config.ConfigServerFactory ===================================================================
+SERVER CONTEXT
+-------------------------------------------------------------------
+- config:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/lucee-server/context
+- loader-version:6.1
+- core-version:6.1.1.118
+===================================================================
+
+2025-06-09 19:06:54.355 lucee.runtime.config.ConfigServerFactory load config file
+2025-06-09 19:06:54.422 lucee.runtime.config.ConfigWebFactory start reading config
+2025-06-09 19:06:54.423 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-06-09 19:06:54.423 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-06-09 19:06:54.425 lucee.runtime.config.ConfigWebFactory loaded config
+2025-06-09 19:06:54.533 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-06-09 19:06:54.536 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-06-09 19:06:54.539 lucee.runtime.config.ConfigWebFactory loaded id
+2025-06-09 19:06:54.540 lucee.runtime.config.ConfigWebFactory loaded version
+2025-06-09 19:06:54.541 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-06-09 19:06:54.593 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-06-09 19:06:54.594 lucee.runtime.config.ConfigWebFactory loaded extension definitions
+2025-06-09 19:06:54.598 lucee.runtime.config.ConfigWebFactory loaded application
+2025-06-09 19:06:54.598 lucee.runtime.config.ConfigWebFactory loaded java
+2025-06-09 19:06:54.607 lucee.runtime.config.ConfigServerFactory ===================================================================
+SERVER CONTEXT
+-------------------------------------------------------------------
+- config:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/lucee-server/context
+- loader-version:6.1
+- core-version:6.1.1.118
+===================================================================
+
+2025-06-09 19:06:54.608 lucee.runtime.config.ConfigServerFactory load config file
+2025-06-09 19:06:54.631 lucee.runtime.config.ConfigWebFactory start reading config
+2025-06-09 19:06:54.631 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-06-09 19:06:54.631 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-06-09 19:06:54.631 lucee.runtime.config.ConfigWebFactory loaded config
+2025-06-09 19:06:54.631 lucee.runtime.config.ConfigWebFactory loaded constants
+2025-06-09 19:06:54.636 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-06-09 19:06:54.636 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-06-09 19:06:54.637 lucee.runtime.config.ConfigWebFactory loaded id
+2025-06-09 19:06:54.637 lucee.runtime.config.ConfigWebFactory loaded version
+2025-06-09 19:06:54.645 lucee.runtime.config.ConfigWebFactory loaded security
+2025-06-09 19:06:54.646 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-06-09 19:06:54.647 lucee.runtime.config.ConfigWebFactory loaded system
+2025-06-09 19:06:54.648 lucee.runtime.config.ConfigWebFactory loaded resource providers
+2025-06-09 19:06:54.650 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-06-09 19:06:55.207 lucee.runtime.config.ConfigWebFactory loaded extension
+2025-06-09 19:06:55.207 lucee.runtime.config.ConfigWebFactory loaded webservice
+2025-06-09 19:06:55.211 lucee.runtime.config.ConfigWebFactory loaded orm
+2025-06-09 19:06:55.214 lucee.runtime.config.ConfigWebFactory loaded cache handlers
+2025-06-09 19:06:55.214 lucee.runtime.config.ConfigWebFactory loaded charset
+2025-06-09 19:06:55.214 lucee.runtime.config.ConfigWebFactory loaded application
+2025-06-09 19:06:55.214 lucee.runtime.config.ConfigWebFactory loaded java
+2025-06-09 19:06:55.224 lucee.runtime.config.ConfigWebFactory loaded mappings
+2025-06-09 19:06:55.225 lucee.runtime.config.ConfigWebFactory loaded rest
+2025-06-09 19:06:55.225 lucee.runtime.config.ConfigWebFactory loaded extensions
+2025-06-09 19:06:55.240 lucee.runtime.config.ConfigWebFactory loaded datasources
+2025-06-09 19:06:55.241 lucee.runtime.config.ConfigWebFactory loaded cache
+2025-06-09 19:06:55.242 lucee.runtime.config.ConfigWebFactory loaded custom tag mappings
+2025-06-09 19:06:55.242 lucee.runtime.config.ConfigWebFactory loaded tags
+2025-06-09 19:06:55.242 lucee.runtime.config.ConfigWebFactory loaded regional
+2025-06-09 19:06:55.242 lucee.runtime.config.ConfigWebFactory loaded compiler
+2025-06-09 19:06:55.243 lucee.runtime.config.ConfigWebFactory loaded scope
+2025-06-09 19:06:55.245 lucee.runtime.config.ConfigWebFactory loaded mail
+2025-06-09 19:06:55.247 lucee.runtime.config.ConfigWebFactory loaded search
+2025-06-09 19:06:55.251 lucee.runtime.config.ConfigWebFactory loaded scheduled tasks
+2025-06-09 19:06:55.252 lucee.runtime.config.ConfigWebFactory loaded debug
+2025-06-09 19:06:55.253 lucee.runtime.config.ConfigWebFactory loaded error
+2025-06-09 19:06:55.255 lucee.runtime.config.ConfigWebFactory loaded regex
+2025-06-09 19:06:55.256 lucee.runtime.config.ConfigWebFactory loaded cfx
+2025-06-09 19:06:55.256 lucee.runtime.config.ConfigWebFactory loaded component
+2025-06-09 19:06:55.257 lucee.runtime.config.ConfigWebFactory loaded update
+2025-06-09 19:06:55.257 lucee.runtime.config.ConfigWebFactory loaded setting
+2025-06-09 19:06:55.258 lucee.runtime.config.ConfigWebFactory loaded proxy
+2025-06-09 19:06:55.264 lucee.runtime.config.ConfigWebFactory loaded remote clients
+2025-06-09 19:06:55.296 lucee.runtime.config.ConfigWebFactory loaded settings2
+2025-06-09 19:06:55.296 lucee.runtime.config.ConfigWebFactory loaded listeners
+2025-06-09 19:06:55.301 lucee.runtime.config.ConfigWebFactory loaded dump writers
+2025-06-09 19:06:55.302 lucee.runtime.config.ConfigWebFactory loaded gateways
+2025-06-09 19:06:55.303 lucee.runtime.config.ConfigWebFactory loaded exe log
+2025-06-09 19:06:55.304 lucee.runtime.config.ConfigWebFactory loaded queue
+2025-06-09 19:06:55.305 lucee.runtime.config.ConfigWebFactory loaded monitors
+2025-06-09 19:06:55.305 lucee.runtime.config.ConfigWebFactory loaded login
+2025-06-09 19:06:55.305 lucee.runtime.config.ConfigWebFactory loaded startup hook
+2025-06-09 19:06:55.370 lucee.runtime.config.ConfigWebFactory ===================================================================
+WEB CONTEXT (SINGLE) (c03635fa4bc259255923d89a87dceac0)
+-------------------------------------------------------------------
+- config:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/lucee-server/context
+- webroot:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/webapps/ROOT
+- label:c03635fa4bc259255923d89a87dceac0
+===================================================================
+
+2025-06-09 19:07:53.472 lucee.runtime.config.ConfigWebFactory start reading config
+2025-06-09 19:07:53.473 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-06-09 19:07:53.473 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-06-09 19:07:53.473 lucee.runtime.config.ConfigWebFactory loaded config
+2025-06-09 19:07:53.473 lucee.runtime.config.ConfigWebFactory loaded constants
+2025-06-09 19:07:53.474 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-06-09 19:07:53.475 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-06-09 19:07:53.475 lucee.runtime.config.ConfigWebFactory loaded id
+2025-06-09 19:07:53.475 lucee.runtime.config.ConfigWebFactory loaded version
+2025-06-09 19:07:53.475 lucee.runtime.config.ConfigWebFactory loaded security
+2025-06-09 19:07:53.475 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-06-09 19:07:53.475 lucee.runtime.config.ConfigWebFactory loaded system
+2025-06-09 19:07:53.475 lucee.runtime.config.ConfigWebFactory loaded resource providers
+2025-06-09 19:07:53.479 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-06-09 19:07:53.481 lucee.runtime.config.ConfigWebFactory loaded extension
+2025-06-09 19:07:53.481 lucee.runtime.config.ConfigWebFactory loaded webservice
+2025-06-09 19:07:53.481 lucee.runtime.config.ConfigWebFactory loaded orm
+2025-06-09 19:07:53.481 lucee.runtime.config.ConfigWebFactory loaded cache handlers
+2025-06-09 19:07:53.481 lucee.runtime.config.ConfigWebFactory loaded charset
+2025-06-09 19:07:53.481 lucee.runtime.config.ConfigWebFactory loaded application
+2025-06-09 19:07:53.481 lucee.runtime.config.ConfigWebFactory loaded java
+2025-06-09 19:07:53.482 lucee.runtime.config.ConfigWebFactory loaded mappings
+2025-06-09 19:07:53.483 lucee.runtime.config.ConfigWebFactory loaded rest
+2025-06-09 19:07:53.483 lucee.runtime.config.ConfigWebFactory loaded extensions
+2025-06-09 19:07:53.483 lucee.runtime.config.ConfigWebFactory loaded datasources
+2025-06-09 19:07:53.484 lucee.runtime.config.ConfigWebFactory loaded cache
+2025-06-09 19:07:53.485 lucee.runtime.config.ConfigWebFactory loaded custom tag mappings
+2025-06-09 19:07:53.485 lucee.runtime.config.ConfigWebFactory loaded tags
+2025-06-09 19:07:53.485 lucee.runtime.config.ConfigWebFactory loaded regional
+2025-06-09 19:07:53.485 lucee.runtime.config.ConfigWebFactory loaded compiler
+2025-06-09 19:07:53.486 lucee.runtime.config.ConfigWebFactory loaded scope
+2025-06-09 19:07:53.486 lucee.runtime.config.ConfigWebFactory loaded mail
+2025-06-09 19:07:53.486 lucee.runtime.config.ConfigWebFactory loaded search
+2025-06-09 19:07:53.486 lucee.runtime.config.ConfigWebFactory loaded scheduled tasks
+2025-06-09 19:07:53.486 lucee.runtime.config.ConfigWebFactory loaded debug
+2025-06-09 19:07:53.486 lucee.runtime.config.ConfigWebFactory loaded error
+2025-06-09 19:07:53.487 lucee.runtime.config.ConfigWebFactory loaded regex
+2025-06-09 19:07:53.487 lucee.runtime.config.ConfigWebFactory loaded cfx
+2025-06-09 19:07:53.487 lucee.runtime.config.ConfigWebFactory loaded component
+2025-06-09 19:07:53.487 lucee.runtime.config.ConfigWebFactory loaded update
+2025-06-09 19:07:53.487 lucee.runtime.config.ConfigWebFactory loaded setting
+2025-06-09 19:07:53.487 lucee.runtime.config.ConfigWebFactory loaded proxy
+2025-06-09 19:07:53.487 lucee.runtime.config.ConfigWebFactory loaded remote clients
+2025-06-09 19:07:53.495 lucee.runtime.config.ConfigWebFactory loaded settings2
+2025-06-09 19:07:53.496 lucee.runtime.config.ConfigWebFactory loaded listeners
+2025-06-09 19:07:53.496 lucee.runtime.config.ConfigWebFactory loaded dump writers
+2025-06-09 19:07:53.496 lucee.runtime.config.ConfigWebFactory loaded gateways
+2025-06-09 19:07:53.496 lucee.runtime.config.ConfigWebFactory loaded exe log
+2025-06-09 19:07:53.496 lucee.runtime.config.ConfigWebFactory loaded queue
+2025-06-09 19:07:53.497 lucee.runtime.config.ConfigWebFactory loaded monitors
+2025-06-09 19:07:53.497 lucee.runtime.config.ConfigWebFactory loaded login
+2025-06-09 19:07:53.497 lucee.runtime.config.ConfigWebFactory loaded startup hook
+2025-06-09 19:08:44.479 lucee.runtime.config.ConfigWebFactory start reading config
+2025-06-09 19:08:44.480 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-06-09 19:08:44.480 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-06-09 19:08:44.480 lucee.runtime.config.ConfigWebFactory loaded config
+2025-06-09 19:08:44.480 lucee.runtime.config.ConfigWebFactory loaded constants
+2025-06-09 19:08:44.485 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-06-09 19:08:44.485 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-06-09 19:08:44.486 lucee.runtime.config.ConfigWebFactory loaded id
+2025-06-09 19:08:44.486 lucee.runtime.config.ConfigWebFactory loaded version
+2025-06-09 19:08:44.486 lucee.runtime.config.ConfigWebFactory loaded security
+2025-06-09 19:08:44.486 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-06-09 19:08:44.486 lucee.runtime.config.ConfigWebFactory loaded system
+2025-06-09 19:08:44.486 lucee.runtime.config.ConfigWebFactory loaded resource providers
+2025-06-09 19:08:44.487 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-06-09 19:08:44.487 lucee.runtime.config.ConfigWebFactory loaded extension
+2025-06-09 19:08:44.487 lucee.runtime.config.ConfigWebFactory loaded webservice
+2025-06-09 19:08:44.487 lucee.runtime.config.ConfigWebFactory loaded orm
+2025-06-09 19:08:44.487 lucee.runtime.config.ConfigWebFactory loaded cache handlers
+2025-06-09 19:08:44.487 lucee.runtime.config.ConfigWebFactory loaded charset
+2025-06-09 19:08:44.487 lucee.runtime.config.ConfigWebFactory loaded application
+2025-06-09 19:08:44.487 lucee.runtime.config.ConfigWebFactory loaded java
+2025-06-09 19:08:44.487 lucee.runtime.config.ConfigWebFactory loaded mappings
+2025-06-09 19:08:44.488 lucee.runtime.config.ConfigWebFactory loaded rest
+2025-06-09 19:08:44.488 lucee.runtime.config.ConfigWebFactory loaded extensions
+2025-06-09 19:08:44.488 lucee.runtime.config.ConfigWebFactory loaded datasources
+2025-06-09 19:08:44.488 lucee.runtime.config.ConfigWebFactory loaded cache
+2025-06-09 19:08:44.488 lucee.runtime.config.ConfigWebFactory loaded custom tag mappings
+2025-06-09 19:08:44.488 lucee.runtime.config.ConfigWebFactory loaded tags
+2025-06-09 19:08:44.488 lucee.runtime.config.ConfigWebFactory loaded regional
+2025-06-09 19:08:44.488 lucee.runtime.config.ConfigWebFactory loaded compiler
+2025-06-09 19:08:44.489 lucee.runtime.config.ConfigWebFactory loaded scope
+2025-06-09 19:08:44.489 lucee.runtime.config.ConfigWebFactory loaded mail
+2025-06-09 19:08:44.489 lucee.runtime.config.ConfigWebFactory loaded search
+2025-06-09 19:08:44.489 lucee.runtime.config.ConfigWebFactory loaded scheduled tasks
+2025-06-09 19:08:44.489 lucee.runtime.config.ConfigWebFactory loaded debug
+2025-06-09 19:08:44.489 lucee.runtime.config.ConfigWebFactory loaded error
+2025-06-09 19:08:44.489 lucee.runtime.config.ConfigWebFactory loaded regex
+2025-06-09 19:08:44.489 lucee.runtime.config.ConfigWebFactory loaded cfx
+2025-06-09 19:08:44.489 lucee.runtime.config.ConfigWebFactory loaded component
+2025-06-09 19:08:44.489 lucee.runtime.config.ConfigWebFactory loaded update
+2025-06-09 19:08:44.489 lucee.runtime.config.ConfigWebFactory loaded setting
+2025-06-09 19:08:44.489 lucee.runtime.config.ConfigWebFactory loaded proxy
+2025-06-09 19:08:44.489 lucee.runtime.config.ConfigWebFactory loaded remote clients
+2025-06-09 19:08:44.493 lucee.runtime.config.ConfigWebFactory loaded settings2
+2025-06-09 19:08:44.493 lucee.runtime.config.ConfigWebFactory loaded listeners
+2025-06-09 19:08:44.493 lucee.runtime.config.ConfigWebFactory loaded dump writers
+2025-06-09 19:08:44.494 lucee.runtime.config.ConfigWebFactory loaded gateways
+2025-06-09 19:08:44.494 lucee.runtime.config.ConfigWebFactory loaded exe log
+2025-06-09 19:08:44.494 lucee.runtime.config.ConfigWebFactory loaded queue
+2025-06-09 19:08:44.495 lucee.runtime.config.ConfigWebFactory loaded monitors
+2025-06-09 19:08:44.495 lucee.runtime.config.ConfigWebFactory loaded login
+2025-06-09 19:08:44.495 lucee.runtime.config.ConfigWebFactory loaded startup hook
+2025-06-09 19:15:53.599 lucee.runtime.config.ConfigServerFactory ===================================================================
+SERVER CONTEXT
+-------------------------------------------------------------------
+- config:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/lucee-server/context
+- loader-version:6.1
+- core-version:6.1.1.118
+===================================================================
+
+2025-06-09 19:15:53.858 lucee.runtime.config.ConfigServerFactory load config file
+2025-06-09 19:15:53.918 lucee.runtime.config.ConfigWebFactory start reading config
+2025-06-09 19:15:53.919 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-06-09 19:15:53.919 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-06-09 19:15:53.921 lucee.runtime.config.ConfigWebFactory loaded config
+2025-06-09 19:15:54.14 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-06-09 19:15:54.22 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-06-09 19:15:54.24 lucee.runtime.config.ConfigWebFactory loaded id
+2025-06-09 19:15:54.24 lucee.runtime.config.ConfigWebFactory loaded version
+2025-06-09 19:15:54.25 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-06-09 19:15:54.57 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-06-09 19:15:54.58 lucee.runtime.config.ConfigWebFactory loaded extension definitions
+2025-06-09 19:15:54.63 lucee.runtime.config.ConfigWebFactory loaded application
+2025-06-09 19:15:54.63 lucee.runtime.config.ConfigWebFactory loaded java
+2025-06-09 19:15:54.73 lucee.runtime.config.ConfigServerFactory ===================================================================
+SERVER CONTEXT
+-------------------------------------------------------------------
+- config:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/lucee-server/context
+- loader-version:6.1
+- core-version:6.1.1.118
+===================================================================
+
+2025-06-09 19:15:54.73 lucee.runtime.config.ConfigServerFactory load config file
+2025-06-09 19:15:54.89 lucee.runtime.config.ConfigWebFactory start reading config
+2025-06-09 19:15:54.89 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-06-09 19:15:54.89 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-06-09 19:15:54.89 lucee.runtime.config.ConfigWebFactory loaded config
+2025-06-09 19:15:54.89 lucee.runtime.config.ConfigWebFactory loaded constants
+2025-06-09 19:15:54.93 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-06-09 19:15:54.93 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-06-09 19:15:54.93 lucee.runtime.config.ConfigWebFactory loaded id
+2025-06-09 19:15:54.94 lucee.runtime.config.ConfigWebFactory loaded version
+2025-06-09 19:15:54.97 lucee.runtime.config.ConfigWebFactory loaded security
+2025-06-09 19:15:54.97 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-06-09 19:15:54.97 lucee.runtime.config.ConfigWebFactory loaded system
+2025-06-09 19:15:54.98 lucee.runtime.config.ConfigWebFactory loaded resource providers
+2025-06-09 19:15:54.99 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-06-09 19:15:54.625 lucee.runtime.config.ConfigWebFactory loaded extension
+2025-06-09 19:15:54.625 lucee.runtime.config.ConfigWebFactory loaded webservice
+2025-06-09 19:15:54.627 lucee.runtime.config.ConfigWebFactory loaded orm
+2025-06-09 19:15:54.631 lucee.runtime.config.ConfigWebFactory loaded cache handlers
+2025-06-09 19:15:54.631 lucee.runtime.config.ConfigWebFactory loaded charset
+2025-06-09 19:15:54.631 lucee.runtime.config.ConfigWebFactory loaded application
+2025-06-09 19:15:54.631 lucee.runtime.config.ConfigWebFactory loaded java
+2025-06-09 19:15:54.638 lucee.runtime.config.ConfigWebFactory loaded mappings
+2025-06-09 19:15:54.640 lucee.runtime.config.ConfigWebFactory loaded rest
+2025-06-09 19:15:54.640 lucee.runtime.config.ConfigWebFactory loaded extensions
+2025-06-09 19:15:54.654 lucee.runtime.config.ConfigWebFactory loaded datasources
+2025-06-09 19:15:54.656 lucee.runtime.config.ConfigWebFactory loaded cache
+2025-06-09 19:15:54.656 lucee.runtime.config.ConfigWebFactory loaded custom tag mappings
+2025-06-09 19:15:54.657 lucee.runtime.config.ConfigWebFactory loaded tags
+2025-06-09 19:15:54.657 lucee.runtime.config.ConfigWebFactory loaded regional
+2025-06-09 19:15:54.657 lucee.runtime.config.ConfigWebFactory loaded compiler
+2025-06-09 19:15:54.657 lucee.runtime.config.ConfigWebFactory loaded scope
+2025-06-09 19:15:54.658 lucee.runtime.config.ConfigWebFactory loaded mail
+2025-06-09 19:15:54.659 lucee.runtime.config.ConfigWebFactory loaded search
+2025-06-09 19:15:54.660 lucee.runtime.config.ConfigWebFactory loaded scheduled tasks
+2025-06-09 19:15:54.660 lucee.runtime.config.ConfigWebFactory loaded debug
+2025-06-09 19:15:54.660 lucee.runtime.config.ConfigWebFactory loaded error
+2025-06-09 19:15:54.662 lucee.runtime.config.ConfigWebFactory loaded regex
+2025-06-09 19:15:54.665 lucee.runtime.config.ConfigWebFactory loaded cfx
+2025-06-09 19:15:54.666 lucee.runtime.config.ConfigWebFactory loaded component
+2025-06-09 19:15:54.666 lucee.runtime.config.ConfigWebFactory loaded update
+2025-06-09 19:15:54.667 lucee.runtime.config.ConfigWebFactory loaded setting
+2025-06-09 19:15:54.668 lucee.runtime.config.ConfigWebFactory loaded proxy
+2025-06-09 19:15:54.670 lucee.runtime.config.ConfigWebFactory loaded remote clients
+2025-06-09 19:15:54.702 lucee.runtime.config.ConfigWebFactory loaded settings2
+2025-06-09 19:15:54.702 lucee.runtime.config.ConfigWebFactory loaded listeners
+2025-06-09 19:15:54.706 lucee.runtime.config.ConfigWebFactory loaded dump writers
+2025-06-09 19:15:54.707 lucee.runtime.config.ConfigWebFactory loaded gateways
+2025-06-09 19:15:54.709 lucee.runtime.config.ConfigWebFactory loaded exe log
+2025-06-09 19:15:54.709 lucee.runtime.config.ConfigWebFactory loaded queue
+2025-06-09 19:15:54.711 lucee.runtime.config.ConfigWebFactory loaded monitors
+2025-06-09 19:15:54.711 lucee.runtime.config.ConfigWebFactory loaded login
+2025-06-09 19:15:54.711 lucee.runtime.config.ConfigWebFactory loaded startup hook
+2025-06-09 19:15:54.766 lucee.runtime.config.ConfigWebFactory ===================================================================
+WEB CONTEXT (SINGLE) (c03635fa4bc259255923d89a87dceac0)
+-------------------------------------------------------------------
+- config:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/lucee-server/context
+- webroot:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/webapps/ROOT
+- label:c03635fa4bc259255923d89a87dceac0
+===================================================================
+
+2025-06-09 19:20:19.342 lucee.runtime.config.ConfigServerFactory ===================================================================
+SERVER CONTEXT
+-------------------------------------------------------------------
+- config:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/lucee-server/context
+- loader-version:6.1
+- core-version:6.1.1.118
+===================================================================
+
+2025-06-09 19:20:19.595 lucee.runtime.config.ConfigServerFactory load config file
+2025-06-09 19:20:19.663 lucee.runtime.config.ConfigWebFactory start reading config
+2025-06-09 19:20:19.663 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-06-09 19:20:19.663 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-06-09 19:20:19.665 lucee.runtime.config.ConfigWebFactory loaded config
+2025-06-09 19:20:19.777 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-06-09 19:20:19.781 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-06-09 19:20:19.784 lucee.runtime.config.ConfigWebFactory loaded id
+2025-06-09 19:20:19.784 lucee.runtime.config.ConfigWebFactory loaded version
+2025-06-09 19:20:19.785 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-06-09 19:20:19.819 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-06-09 19:20:19.820 lucee.runtime.config.ConfigWebFactory loaded extension definitions
+2025-06-09 19:20:19.825 lucee.runtime.config.ConfigWebFactory loaded application
+2025-06-09 19:20:19.825 lucee.runtime.config.ConfigWebFactory loaded java
+2025-06-09 19:20:19.836 lucee.runtime.config.ConfigServerFactory ===================================================================
+SERVER CONTEXT
+-------------------------------------------------------------------
+- config:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/lucee-server/context
+- loader-version:6.1
+- core-version:6.1.1.118
+===================================================================
+
+2025-06-09 19:20:19.836 lucee.runtime.config.ConfigServerFactory load config file
+2025-06-09 19:20:19.856 lucee.runtime.config.ConfigWebFactory start reading config
+2025-06-09 19:20:19.857 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-06-09 19:20:19.857 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-06-09 19:20:19.857 lucee.runtime.config.ConfigWebFactory loaded config
+2025-06-09 19:20:19.857 lucee.runtime.config.ConfigWebFactory loaded constants
+2025-06-09 19:20:19.861 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-06-09 19:20:19.861 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-06-09 19:20:19.862 lucee.runtime.config.ConfigWebFactory loaded id
+2025-06-09 19:20:19.862 lucee.runtime.config.ConfigWebFactory loaded version
+2025-06-09 19:20:19.869 lucee.runtime.config.ConfigWebFactory loaded security
+2025-06-09 19:20:19.869 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-06-09 19:20:19.870 lucee.runtime.config.ConfigWebFactory loaded system
+2025-06-09 19:20:19.871 lucee.runtime.config.ConfigWebFactory loaded resource providers
+2025-06-09 19:20:19.873 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-06-09 19:20:20.410 lucee.runtime.config.ConfigWebFactory loaded extension
+2025-06-09 19:20:20.410 lucee.runtime.config.ConfigWebFactory loaded webservice
+2025-06-09 19:20:20.412 lucee.runtime.config.ConfigWebFactory loaded orm
+2025-06-09 19:20:20.414 lucee.runtime.config.ConfigWebFactory loaded cache handlers
+2025-06-09 19:20:20.414 lucee.runtime.config.ConfigWebFactory loaded charset
+2025-06-09 19:20:20.414 lucee.runtime.config.ConfigWebFactory loaded application
+2025-06-09 19:20:20.415 lucee.runtime.config.ConfigWebFactory loaded java
+2025-06-09 19:20:20.424 lucee.runtime.config.ConfigWebFactory loaded mappings
+2025-06-09 19:20:20.426 lucee.runtime.config.ConfigWebFactory loaded rest
+2025-06-09 19:20:20.427 lucee.runtime.config.ConfigWebFactory loaded extensions
+2025-06-09 19:20:20.438 lucee.runtime.config.ConfigWebFactory loaded datasources
+2025-06-09 19:20:20.440 lucee.runtime.config.ConfigWebFactory loaded cache
+2025-06-09 19:20:20.441 lucee.runtime.config.ConfigWebFactory loaded custom tag mappings
+2025-06-09 19:20:20.441 lucee.runtime.config.ConfigWebFactory loaded tags
+2025-06-09 19:20:20.442 lucee.runtime.config.ConfigWebFactory loaded regional
+2025-06-09 19:20:20.442 lucee.runtime.config.ConfigWebFactory loaded compiler
+2025-06-09 19:20:20.442 lucee.runtime.config.ConfigWebFactory loaded scope
+2025-06-09 19:20:20.443 lucee.runtime.config.ConfigWebFactory loaded mail
+2025-06-09 19:20:20.444 lucee.runtime.config.ConfigWebFactory loaded search
+2025-06-09 19:20:20.445 lucee.runtime.config.ConfigWebFactory loaded scheduled tasks
+2025-06-09 19:20:20.445 lucee.runtime.config.ConfigWebFactory loaded debug
+2025-06-09 19:20:20.446 lucee.runtime.config.ConfigWebFactory loaded error
+2025-06-09 19:20:20.448 lucee.runtime.config.ConfigWebFactory loaded regex
+2025-06-09 19:20:20.449 lucee.runtime.config.ConfigWebFactory loaded cfx
+2025-06-09 19:20:20.450 lucee.runtime.config.ConfigWebFactory loaded component
+2025-06-09 19:20:20.450 lucee.runtime.config.ConfigWebFactory loaded update
+2025-06-09 19:20:20.450 lucee.runtime.config.ConfigWebFactory loaded setting
+2025-06-09 19:20:20.451 lucee.runtime.config.ConfigWebFactory loaded proxy
+2025-06-09 19:20:20.452 lucee.runtime.config.ConfigWebFactory loaded remote clients
+2025-06-09 19:20:20.471 lucee.runtime.config.ConfigWebFactory loaded settings2
+2025-06-09 19:20:20.471 lucee.runtime.config.ConfigWebFactory loaded listeners
+2025-06-09 19:20:20.475 lucee.runtime.config.ConfigWebFactory loaded dump writers
+2025-06-09 19:20:20.476 lucee.runtime.config.ConfigWebFactory loaded gateways
+2025-06-09 19:20:20.477 lucee.runtime.config.ConfigWebFactory loaded exe log
+2025-06-09 19:20:20.477 lucee.runtime.config.ConfigWebFactory loaded queue
+2025-06-09 19:20:20.478 lucee.runtime.config.ConfigWebFactory loaded monitors
+2025-06-09 19:20:20.479 lucee.runtime.config.ConfigWebFactory loaded login
+2025-06-09 19:20:20.479 lucee.runtime.config.ConfigWebFactory loaded startup hook
+2025-06-09 19:20:20.513 lucee.runtime.config.ConfigWebFactory ===================================================================
+WEB CONTEXT (SINGLE) (c03635fa4bc259255923d89a87dceac0)
+-------------------------------------------------------------------
+- config:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/lucee-server/context
+- webroot:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/webapps/ROOT
+- label:c03635fa4bc259255923d89a87dceac0
+===================================================================
+
+2025-06-09 19:21:56.359 lucee.runtime.config.ConfigServerFactory ===================================================================
+SERVER CONTEXT
+-------------------------------------------------------------------
+- config:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/lucee-server/context
+- loader-version:6.1
+- core-version:6.1.1.118
+===================================================================
+
+2025-06-09 19:21:56.529 lucee.runtime.config.ConfigServerFactory load config file
+2025-06-09 19:21:56.585 lucee.runtime.config.ConfigWebFactory start reading config
+2025-06-09 19:21:56.585 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-06-09 19:21:56.586 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-06-09 19:21:56.587 lucee.runtime.config.ConfigWebFactory loaded config
+2025-06-09 19:21:56.689 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-06-09 19:21:56.691 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-06-09 19:21:56.692 lucee.runtime.config.ConfigWebFactory loaded id
+2025-06-09 19:21:56.692 lucee.runtime.config.ConfigWebFactory loaded version
+2025-06-09 19:21:56.693 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-06-09 19:21:56.728 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-06-09 19:21:56.728 lucee.runtime.config.ConfigWebFactory loaded extension definitions
+2025-06-09 19:21:56.734 lucee.runtime.config.ConfigWebFactory loaded application
+2025-06-09 19:21:56.734 lucee.runtime.config.ConfigWebFactory loaded java
+2025-06-09 19:21:56.742 lucee.runtime.config.ConfigServerFactory ===================================================================
+SERVER CONTEXT
+-------------------------------------------------------------------
+- config:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/lucee-server/context
+- loader-version:6.1
+- core-version:6.1.1.118
+===================================================================
+
+2025-06-09 19:21:56.742 lucee.runtime.config.ConfigServerFactory load config file
+2025-06-09 19:21:56.759 lucee.runtime.config.ConfigWebFactory start reading config
+2025-06-09 19:21:56.759 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-06-09 19:21:56.759 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-06-09 19:21:56.759 lucee.runtime.config.ConfigWebFactory loaded config
+2025-06-09 19:21:56.759 lucee.runtime.config.ConfigWebFactory loaded constants
+2025-06-09 19:21:56.762 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-06-09 19:21:56.762 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-06-09 19:21:56.763 lucee.runtime.config.ConfigWebFactory loaded id
+2025-06-09 19:21:56.763 lucee.runtime.config.ConfigWebFactory loaded version
+2025-06-09 19:21:56.771 lucee.runtime.config.ConfigWebFactory loaded security
+2025-06-09 19:21:56.771 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-06-09 19:21:56.771 lucee.runtime.config.ConfigWebFactory loaded system
+2025-06-09 19:21:56.772 lucee.runtime.config.ConfigWebFactory loaded resource providers
+2025-06-09 19:21:56.773 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-06-09 19:21:57.311 lucee.runtime.config.ConfigWebFactory loaded extension
+2025-06-09 19:21:57.311 lucee.runtime.config.ConfigWebFactory loaded webservice
+2025-06-09 19:21:57.314 lucee.runtime.config.ConfigWebFactory loaded orm
+2025-06-09 19:21:57.316 lucee.runtime.config.ConfigWebFactory loaded cache handlers
+2025-06-09 19:21:57.316 lucee.runtime.config.ConfigWebFactory loaded charset
+2025-06-09 19:21:57.317 lucee.runtime.config.ConfigWebFactory loaded application
+2025-06-09 19:21:57.317 lucee.runtime.config.ConfigWebFactory loaded java
+2025-06-09 19:21:57.327 lucee.runtime.config.ConfigWebFactory loaded mappings
+2025-06-09 19:21:57.328 lucee.runtime.config.ConfigWebFactory loaded rest
+2025-06-09 19:21:57.328 lucee.runtime.config.ConfigWebFactory loaded extensions
+2025-06-09 19:21:57.341 lucee.runtime.config.ConfigWebFactory loaded datasources
+2025-06-09 19:21:57.342 lucee.runtime.config.ConfigWebFactory loaded cache
+2025-06-09 19:21:57.343 lucee.runtime.config.ConfigWebFactory loaded custom tag mappings
+2025-06-09 19:21:57.343 lucee.runtime.config.ConfigWebFactory loaded tags
+2025-06-09 19:21:57.343 lucee.runtime.config.ConfigWebFactory loaded regional
+2025-06-09 19:21:57.343 lucee.runtime.config.ConfigWebFactory loaded compiler
+2025-06-09 19:21:57.343 lucee.runtime.config.ConfigWebFactory loaded scope
+2025-06-09 19:21:57.344 lucee.runtime.config.ConfigWebFactory loaded mail
+2025-06-09 19:21:57.345 lucee.runtime.config.ConfigWebFactory loaded search
+2025-06-09 19:21:57.347 lucee.runtime.config.ConfigWebFactory loaded scheduled tasks
+2025-06-09 19:21:57.348 lucee.runtime.config.ConfigWebFactory loaded debug
+2025-06-09 19:21:57.348 lucee.runtime.config.ConfigWebFactory loaded error
+2025-06-09 19:21:57.349 lucee.runtime.config.ConfigWebFactory loaded regex
+2025-06-09 19:21:57.350 lucee.runtime.config.ConfigWebFactory loaded cfx
+2025-06-09 19:21:57.350 lucee.runtime.config.ConfigWebFactory loaded component
+2025-06-09 19:21:57.351 lucee.runtime.config.ConfigWebFactory loaded update
+2025-06-09 19:21:57.351 lucee.runtime.config.ConfigWebFactory loaded setting
+2025-06-09 19:21:57.353 lucee.runtime.config.ConfigWebFactory loaded proxy
+2025-06-09 19:21:57.358 lucee.runtime.config.ConfigWebFactory loaded remote clients
+2025-06-09 19:21:57.391 lucee.runtime.config.ConfigWebFactory loaded settings2
+2025-06-09 19:21:57.392 lucee.runtime.config.ConfigWebFactory loaded listeners
+2025-06-09 19:21:57.395 lucee.runtime.config.ConfigWebFactory loaded dump writers
+2025-06-09 19:21:57.396 lucee.runtime.config.ConfigWebFactory loaded gateways
+2025-06-09 19:21:57.397 lucee.runtime.config.ConfigWebFactory loaded exe log
+2025-06-09 19:21:57.398 lucee.runtime.config.ConfigWebFactory loaded queue
+2025-06-09 19:21:57.400 lucee.runtime.config.ConfigWebFactory loaded monitors
+2025-06-09 19:21:57.401 lucee.runtime.config.ConfigWebFactory loaded login
+2025-06-09 19:21:57.401 lucee.runtime.config.ConfigWebFactory loaded startup hook
+2025-06-09 19:21:57.454 lucee.runtime.config.ConfigWebFactory ===================================================================
+WEB CONTEXT (SINGLE) (c03635fa4bc259255923d89a87dceac0)
+-------------------------------------------------------------------
+- config:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/lucee-server/context
+- webroot:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/webapps/ROOT
+- label:c03635fa4bc259255923d89a87dceac0
+===================================================================
+
+2025-06-09 19:24:23.332 lucee.runtime.config.ConfigServerFactory ===================================================================
+SERVER CONTEXT
+-------------------------------------------------------------------
+- config:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/lucee-server/context
+- loader-version:6.1
+- core-version:6.1.1.118
+===================================================================
+
+2025-06-09 19:24:23.533 lucee.runtime.config.ConfigServerFactory load config file
+2025-06-09 19:24:23.600 lucee.runtime.config.ConfigWebFactory start reading config
+2025-06-09 19:24:23.600 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-06-09 19:24:23.600 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-06-09 19:24:23.601 lucee.runtime.config.ConfigWebFactory loaded config
+2025-06-09 19:24:23.707 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-06-09 19:24:23.711 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-06-09 19:24:23.715 lucee.runtime.config.ConfigWebFactory loaded id
+2025-06-09 19:24:23.715 lucee.runtime.config.ConfigWebFactory loaded version
+2025-06-09 19:24:23.716 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-06-09 19:24:23.746 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-06-09 19:24:23.748 lucee.runtime.config.ConfigWebFactory loaded extension definitions
+2025-06-09 19:24:23.753 lucee.runtime.config.ConfigWebFactory loaded application
+2025-06-09 19:24:23.753 lucee.runtime.config.ConfigWebFactory loaded java
+2025-06-09 19:24:23.760 lucee.runtime.config.ConfigServerFactory ===================================================================
+SERVER CONTEXT
+-------------------------------------------------------------------
+- config:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/lucee-server/context
+- loader-version:6.1
+- core-version:6.1.1.118
+===================================================================
+
+2025-06-09 19:24:23.761 lucee.runtime.config.ConfigServerFactory load config file
+2025-06-09 19:24:23.775 lucee.runtime.config.ConfigWebFactory start reading config
+2025-06-09 19:24:23.775 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-06-09 19:24:23.775 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-06-09 19:24:23.776 lucee.runtime.config.ConfigWebFactory loaded config
+2025-06-09 19:24:23.776 lucee.runtime.config.ConfigWebFactory loaded constants
+2025-06-09 19:24:23.778 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-06-09 19:24:23.779 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-06-09 19:24:23.779 lucee.runtime.config.ConfigWebFactory loaded id
+2025-06-09 19:24:23.780 lucee.runtime.config.ConfigWebFactory loaded version
+2025-06-09 19:24:23.786 lucee.runtime.config.ConfigWebFactory loaded security
+2025-06-09 19:24:23.786 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-06-09 19:24:23.786 lucee.runtime.config.ConfigWebFactory loaded system
+2025-06-09 19:24:23.787 lucee.runtime.config.ConfigWebFactory loaded resource providers
+2025-06-09 19:24:23.788 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-06-09 19:24:24.315 lucee.runtime.config.ConfigWebFactory loaded extension
+2025-06-09 19:24:24.315 lucee.runtime.config.ConfigWebFactory loaded webservice
+2025-06-09 19:24:24.319 lucee.runtime.config.ConfigWebFactory loaded orm
+2025-06-09 19:24:24.322 lucee.runtime.config.ConfigWebFactory loaded cache handlers
+2025-06-09 19:24:24.322 lucee.runtime.config.ConfigWebFactory loaded charset
+2025-06-09 19:24:24.322 lucee.runtime.config.ConfigWebFactory loaded application
+2025-06-09 19:24:24.322 lucee.runtime.config.ConfigWebFactory loaded java
+2025-06-09 19:24:24.329 lucee.runtime.config.ConfigWebFactory loaded mappings
+2025-06-09 19:24:24.331 lucee.runtime.config.ConfigWebFactory loaded rest
+2025-06-09 19:24:24.331 lucee.runtime.config.ConfigWebFactory loaded extensions
+2025-06-09 19:24:24.347 lucee.runtime.config.ConfigWebFactory loaded datasources
+2025-06-09 19:24:24.349 lucee.runtime.config.ConfigWebFactory loaded cache
+2025-06-09 19:24:24.350 lucee.runtime.config.ConfigWebFactory loaded custom tag mappings
+2025-06-09 19:24:24.350 lucee.runtime.config.ConfigWebFactory loaded tags
+2025-06-09 19:24:24.350 lucee.runtime.config.ConfigWebFactory loaded regional
+2025-06-09 19:24:24.350 lucee.runtime.config.ConfigWebFactory loaded compiler
+2025-06-09 19:24:24.351 lucee.runtime.config.ConfigWebFactory loaded scope
+2025-06-09 19:24:24.353 lucee.runtime.config.ConfigWebFactory loaded mail
+2025-06-09 19:24:24.355 lucee.runtime.config.ConfigWebFactory loaded search
+2025-06-09 19:24:24.356 lucee.runtime.config.ConfigWebFactory loaded scheduled tasks
+2025-06-09 19:24:24.356 lucee.runtime.config.ConfigWebFactory loaded debug
+2025-06-09 19:24:24.356 lucee.runtime.config.ConfigWebFactory loaded error
+2025-06-09 19:24:24.357 lucee.runtime.config.ConfigWebFactory loaded regex
+2025-06-09 19:24:24.358 lucee.runtime.config.ConfigWebFactory loaded cfx
+2025-06-09 19:24:24.358 lucee.runtime.config.ConfigWebFactory loaded component
+2025-06-09 19:24:24.358 lucee.runtime.config.ConfigWebFactory loaded update
+2025-06-09 19:24:24.359 lucee.runtime.config.ConfigWebFactory loaded setting
+2025-06-09 19:24:24.359 lucee.runtime.config.ConfigWebFactory loaded proxy
+2025-06-09 19:24:24.361 lucee.runtime.config.ConfigWebFactory loaded remote clients
+2025-06-09 19:24:24.379 lucee.runtime.config.ConfigWebFactory loaded settings2
+2025-06-09 19:24:24.379 lucee.runtime.config.ConfigWebFactory loaded listeners
+2025-06-09 19:24:24.382 lucee.runtime.config.ConfigWebFactory loaded dump writers
+2025-06-09 19:24:24.384 lucee.runtime.config.ConfigWebFactory loaded gateways
+2025-06-09 19:24:24.385 lucee.runtime.config.ConfigWebFactory loaded exe log
+2025-06-09 19:24:24.386 lucee.runtime.config.ConfigWebFactory loaded queue
+2025-06-09 19:24:24.387 lucee.runtime.config.ConfigWebFactory loaded monitors
+2025-06-09 19:24:24.388 lucee.runtime.config.ConfigWebFactory loaded login
+2025-06-09 19:24:24.388 lucee.runtime.config.ConfigWebFactory loaded startup hook
+2025-06-09 19:24:24.439 lucee.runtime.config.ConfigWebFactory ===================================================================
+WEB CONTEXT (SINGLE) (c03635fa4bc259255923d89a87dceac0)
+-------------------------------------------------------------------
+- config:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/lucee-server/context
+- webroot:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/webapps/ROOT
+- label:c03635fa4bc259255923d89a87dceac0
+===================================================================
+
+2025-06-09 19:25:21.835 lucee.runtime.config.ConfigServerFactory ===================================================================
+SERVER CONTEXT
+-------------------------------------------------------------------
+- config:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/lucee-server/context
+- loader-version:6.1
+- core-version:6.1.1.118
+===================================================================
+
+2025-06-09 19:25:22.51 lucee.runtime.config.ConfigServerFactory load config file
+2025-06-09 19:25:22.114 lucee.runtime.config.ConfigWebFactory start reading config
+2025-06-09 19:25:22.114 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-06-09 19:25:22.114 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-06-09 19:25:22.115 lucee.runtime.config.ConfigWebFactory loaded config
+2025-06-09 19:25:22.223 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-06-09 19:25:22.225 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-06-09 19:25:22.226 lucee.runtime.config.ConfigWebFactory loaded id
+2025-06-09 19:25:22.226 lucee.runtime.config.ConfigWebFactory loaded version
+2025-06-09 19:25:22.227 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-06-09 19:25:22.253 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-06-09 19:25:22.253 lucee.runtime.config.ConfigWebFactory loaded extension definitions
+2025-06-09 19:25:22.256 lucee.runtime.config.ConfigWebFactory loaded application
+2025-06-09 19:25:22.256 lucee.runtime.config.ConfigWebFactory loaded java
+2025-06-09 19:25:22.262 lucee.runtime.config.ConfigServerFactory ===================================================================
+SERVER CONTEXT
+-------------------------------------------------------------------
+- config:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/lucee-server/context
+- loader-version:6.1
+- core-version:6.1.1.118
+===================================================================
+
+2025-06-09 19:25:22.263 lucee.runtime.config.ConfigServerFactory load config file
+2025-06-09 19:25:22.281 lucee.runtime.config.ConfigWebFactory start reading config
+2025-06-09 19:25:22.281 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-06-09 19:25:22.282 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-06-09 19:25:22.282 lucee.runtime.config.ConfigWebFactory loaded config
+2025-06-09 19:25:22.282 lucee.runtime.config.ConfigWebFactory loaded constants
+2025-06-09 19:25:22.285 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-06-09 19:25:22.286 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-06-09 19:25:22.286 lucee.runtime.config.ConfigWebFactory loaded id
+2025-06-09 19:25:22.286 lucee.runtime.config.ConfigWebFactory loaded version
+2025-06-09 19:25:22.289 lucee.runtime.config.ConfigWebFactory loaded security
+2025-06-09 19:25:22.290 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-06-09 19:25:22.290 lucee.runtime.config.ConfigWebFactory loaded system
+2025-06-09 19:25:22.291 lucee.runtime.config.ConfigWebFactory loaded resource providers
+2025-06-09 19:25:22.292 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-06-09 19:25:22.814 lucee.runtime.config.ConfigWebFactory loaded extension
+2025-06-09 19:25:22.815 lucee.runtime.config.ConfigWebFactory loaded webservice
+2025-06-09 19:25:22.818 lucee.runtime.config.ConfigWebFactory loaded orm
+2025-06-09 19:25:22.821 lucee.runtime.config.ConfigWebFactory loaded cache handlers
+2025-06-09 19:25:22.821 lucee.runtime.config.ConfigWebFactory loaded charset
+2025-06-09 19:25:22.822 lucee.runtime.config.ConfigWebFactory loaded application
+2025-06-09 19:25:22.822 lucee.runtime.config.ConfigWebFactory loaded java
+2025-06-09 19:25:22.832 lucee.runtime.config.ConfigWebFactory loaded mappings
+2025-06-09 19:25:22.833 lucee.runtime.config.ConfigWebFactory loaded rest
+2025-06-09 19:25:22.833 lucee.runtime.config.ConfigWebFactory loaded extensions
+2025-06-09 19:25:22.845 lucee.runtime.config.ConfigWebFactory loaded datasources
+2025-06-09 19:25:22.846 lucee.runtime.config.ConfigWebFactory loaded cache
+2025-06-09 19:25:22.847 lucee.runtime.config.ConfigWebFactory loaded custom tag mappings
+2025-06-09 19:25:22.847 lucee.runtime.config.ConfigWebFactory loaded tags
+2025-06-09 19:25:22.847 lucee.runtime.config.ConfigWebFactory loaded regional
+2025-06-09 19:25:22.847 lucee.runtime.config.ConfigWebFactory loaded compiler
+2025-06-09 19:25:22.848 lucee.runtime.config.ConfigWebFactory loaded scope
+2025-06-09 19:25:22.849 lucee.runtime.config.ConfigWebFactory loaded mail
+2025-06-09 19:25:22.850 lucee.runtime.config.ConfigWebFactory loaded search
+2025-06-09 19:25:22.853 lucee.runtime.config.ConfigWebFactory loaded scheduled tasks
+2025-06-09 19:25:22.853 lucee.runtime.config.ConfigWebFactory loaded debug
+2025-06-09 19:25:22.854 lucee.runtime.config.ConfigWebFactory loaded error
+2025-06-09 19:25:22.855 lucee.runtime.config.ConfigWebFactory loaded regex
+2025-06-09 19:25:22.856 lucee.runtime.config.ConfigWebFactory loaded cfx
+2025-06-09 19:25:22.857 lucee.runtime.config.ConfigWebFactory loaded component
+2025-06-09 19:25:22.857 lucee.runtime.config.ConfigWebFactory loaded update
+2025-06-09 19:25:22.857 lucee.runtime.config.ConfigWebFactory loaded setting
+2025-06-09 19:25:22.858 lucee.runtime.config.ConfigWebFactory loaded proxy
+2025-06-09 19:25:22.860 lucee.runtime.config.ConfigWebFactory loaded remote clients
+2025-06-09 19:25:22.876 lucee.runtime.config.ConfigWebFactory loaded settings2
+2025-06-09 19:25:22.877 lucee.runtime.config.ConfigWebFactory loaded listeners
+2025-06-09 19:25:22.879 lucee.runtime.config.ConfigWebFactory loaded dump writers
+2025-06-09 19:25:22.879 lucee.runtime.config.ConfigWebFactory loaded gateways
+2025-06-09 19:25:22.880 lucee.runtime.config.ConfigWebFactory loaded exe log
+2025-06-09 19:25:22.880 lucee.runtime.config.ConfigWebFactory loaded queue
+2025-06-09 19:25:22.881 lucee.runtime.config.ConfigWebFactory loaded monitors
+2025-06-09 19:25:22.881 lucee.runtime.config.ConfigWebFactory loaded login
+2025-06-09 19:25:22.881 lucee.runtime.config.ConfigWebFactory loaded startup hook
+2025-06-09 19:25:22.923 lucee.runtime.config.ConfigWebFactory ===================================================================
+WEB CONTEXT (SINGLE) (c03635fa4bc259255923d89a87dceac0)
+-------------------------------------------------------------------
+- config:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/lucee-server/context
+- webroot:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/webapps/ROOT
+- label:c03635fa4bc259255923d89a87dceac0
+===================================================================
+
+2025-06-09 19:28:00.691 lucee.runtime.config.ConfigServerFactory ===================================================================
+SERVER CONTEXT
+-------------------------------------------------------------------
+- config:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/lucee-server/context
+- loader-version:6.1
+- core-version:6.1.1.118
+===================================================================
+
+2025-06-09 19:28:00.893 lucee.runtime.config.ConfigServerFactory load config file
+2025-06-09 19:28:00.977 lucee.runtime.config.ConfigWebFactory start reading config
+2025-06-09 19:28:00.978 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-06-09 19:28:00.978 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-06-09 19:28:00.979 lucee.runtime.config.ConfigWebFactory loaded config
+2025-06-09 19:28:01.82 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-06-09 19:28:01.85 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-06-09 19:28:01.88 lucee.runtime.config.ConfigWebFactory loaded id
+2025-06-09 19:28:01.88 lucee.runtime.config.ConfigWebFactory loaded version
+2025-06-09 19:28:01.89 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-06-09 19:28:01.130 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-06-09 19:28:01.131 lucee.runtime.config.ConfigWebFactory loaded extension definitions
+2025-06-09 19:28:01.138 lucee.runtime.config.ConfigWebFactory loaded application
+2025-06-09 19:28:01.138 lucee.runtime.config.ConfigWebFactory loaded java
+2025-06-09 19:28:01.147 lucee.runtime.config.ConfigServerFactory ===================================================================
+SERVER CONTEXT
+-------------------------------------------------------------------
+- config:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/lucee-server/context
+- loader-version:6.1
+- core-version:6.1.1.118
+===================================================================
+
+2025-06-09 19:28:01.148 lucee.runtime.config.ConfigServerFactory load config file
+2025-06-09 19:28:01.166 lucee.runtime.config.ConfigWebFactory start reading config
+2025-06-09 19:28:01.166 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-06-09 19:28:01.167 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-06-09 19:28:01.167 lucee.runtime.config.ConfigWebFactory loaded config
+2025-06-09 19:28:01.167 lucee.runtime.config.ConfigWebFactory loaded constants
+2025-06-09 19:28:01.171 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-06-09 19:28:01.172 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-06-09 19:28:01.172 lucee.runtime.config.ConfigWebFactory loaded id
+2025-06-09 19:28:01.173 lucee.runtime.config.ConfigWebFactory loaded version
+2025-06-09 19:28:01.178 lucee.runtime.config.ConfigWebFactory loaded security
+2025-06-09 19:28:01.179 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-06-09 19:28:01.179 lucee.runtime.config.ConfigWebFactory loaded system
+2025-06-09 19:28:01.181 lucee.runtime.config.ConfigWebFactory loaded resource providers
+2025-06-09 19:28:01.182 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-06-09 19:28:01.706 lucee.runtime.config.ConfigWebFactory loaded extension
+2025-06-09 19:28:01.707 lucee.runtime.config.ConfigWebFactory loaded webservice
+2025-06-09 19:28:01.708 lucee.runtime.config.ConfigWebFactory loaded orm
+2025-06-09 19:28:01.711 lucee.runtime.config.ConfigWebFactory loaded cache handlers
+2025-06-09 19:28:01.711 lucee.runtime.config.ConfigWebFactory loaded charset
+2025-06-09 19:28:01.712 lucee.runtime.config.ConfigWebFactory loaded application
+2025-06-09 19:28:01.712 lucee.runtime.config.ConfigWebFactory loaded java
+2025-06-09 19:28:01.720 lucee.runtime.config.ConfigWebFactory loaded mappings
+2025-06-09 19:28:01.721 lucee.runtime.config.ConfigWebFactory loaded rest
+2025-06-09 19:28:01.721 lucee.runtime.config.ConfigWebFactory loaded extensions
+2025-06-09 19:28:01.732 lucee.runtime.config.ConfigWebFactory loaded datasources
+2025-06-09 19:28:01.734 lucee.runtime.config.ConfigWebFactory loaded cache
+2025-06-09 19:28:01.735 lucee.runtime.config.ConfigWebFactory loaded custom tag mappings
+2025-06-09 19:28:01.735 lucee.runtime.config.ConfigWebFactory loaded tags
+2025-06-09 19:28:01.736 lucee.runtime.config.ConfigWebFactory loaded regional
+2025-06-09 19:28:01.736 lucee.runtime.config.ConfigWebFactory loaded compiler
+2025-06-09 19:28:01.736 lucee.runtime.config.ConfigWebFactory loaded scope
+2025-06-09 19:28:01.737 lucee.runtime.config.ConfigWebFactory loaded mail
+2025-06-09 19:28:01.738 lucee.runtime.config.ConfigWebFactory loaded search
+2025-06-09 19:28:01.739 lucee.runtime.config.ConfigWebFactory loaded scheduled tasks
+2025-06-09 19:28:01.739 lucee.runtime.config.ConfigWebFactory loaded debug
+2025-06-09 19:28:01.740 lucee.runtime.config.ConfigWebFactory loaded error
+2025-06-09 19:28:01.740 lucee.runtime.config.ConfigWebFactory loaded regex
+2025-06-09 19:28:01.741 lucee.runtime.config.ConfigWebFactory loaded cfx
+2025-06-09 19:28:01.741 lucee.runtime.config.ConfigWebFactory loaded component
+2025-06-09 19:28:01.741 lucee.runtime.config.ConfigWebFactory loaded update
+2025-06-09 19:28:01.741 lucee.runtime.config.ConfigWebFactory loaded setting
+2025-06-09 19:28:01.742 lucee.runtime.config.ConfigWebFactory loaded proxy
+2025-06-09 19:28:01.746 lucee.runtime.config.ConfigWebFactory loaded remote clients
+2025-06-09 19:28:01.765 lucee.runtime.config.ConfigWebFactory loaded settings2
+2025-06-09 19:28:01.765 lucee.runtime.config.ConfigWebFactory loaded listeners
+2025-06-09 19:28:01.769 lucee.runtime.config.ConfigWebFactory loaded dump writers
+2025-06-09 19:28:01.769 lucee.runtime.config.ConfigWebFactory loaded gateways
+2025-06-09 19:28:01.770 lucee.runtime.config.ConfigWebFactory loaded exe log
+2025-06-09 19:28:01.770 lucee.runtime.config.ConfigWebFactory loaded queue
+2025-06-09 19:28:01.771 lucee.runtime.config.ConfigWebFactory loaded monitors
+2025-06-09 19:28:01.771 lucee.runtime.config.ConfigWebFactory loaded login
+2025-06-09 19:28:01.772 lucee.runtime.config.ConfigWebFactory loaded startup hook
+2025-06-09 19:28:01.809 lucee.runtime.config.ConfigWebFactory ===================================================================
+WEB CONTEXT (SINGLE) (c03635fa4bc259255923d89a87dceac0)
+-------------------------------------------------------------------
+- config:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/lucee-server/context
+- webroot:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/webapps/ROOT
+- label:c03635fa4bc259255923d89a87dceac0
+===================================================================
+
+2025-06-10 16:08:26.591 lucee.runtime.config.ConfigServerFactory ===================================================================
+SERVER CONTEXT
+-------------------------------------------------------------------
+- config:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/lucee-server/context
+- loader-version:6.1
+- core-version:6.1.1.118
+===================================================================
+
+2025-06-10 16:08:26.846 lucee.runtime.config.ConfigServerFactory load config file
+2025-06-10 16:08:26.915 lucee.runtime.config.ConfigWebFactory start reading config
+2025-06-10 16:08:26.915 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-06-10 16:08:26.915 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-06-10 16:08:26.917 lucee.runtime.config.ConfigWebFactory loaded config
+2025-06-10 16:08:27.49 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-06-10 16:08:27.50 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-06-10 16:08:27.54 lucee.runtime.config.ConfigWebFactory loaded id
+2025-06-10 16:08:27.54 lucee.runtime.config.ConfigWebFactory loaded version
+2025-06-10 16:08:27.54 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-06-10 16:08:27.107 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-06-10 16:08:27.108 lucee.runtime.config.ConfigWebFactory loaded extension definitions
+2025-06-10 16:08:27.113 lucee.runtime.config.ConfigWebFactory loaded application
+2025-06-10 16:08:27.113 lucee.runtime.config.ConfigWebFactory loaded java
+2025-06-10 16:08:27.129 lucee.runtime.config.ConfigServerFactory ===================================================================
+SERVER CONTEXT
+-------------------------------------------------------------------
+- config:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/lucee-server/context
+- loader-version:6.1
+- core-version:6.1.1.118
+===================================================================
+
+2025-06-10 16:08:27.130 lucee.runtime.config.ConfigServerFactory load config file
+2025-06-10 16:08:27.155 lucee.runtime.config.ConfigWebFactory start reading config
+2025-06-10 16:08:27.156 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-06-10 16:08:27.156 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-06-10 16:08:27.156 lucee.runtime.config.ConfigWebFactory loaded config
+2025-06-10 16:08:27.156 lucee.runtime.config.ConfigWebFactory loaded constants
+2025-06-10 16:08:27.162 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-06-10 16:08:27.162 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-06-10 16:08:27.163 lucee.runtime.config.ConfigWebFactory loaded id
+2025-06-10 16:08:27.163 lucee.runtime.config.ConfigWebFactory loaded version
+2025-06-10 16:08:27.169 lucee.runtime.config.ConfigWebFactory loaded security
+2025-06-10 16:08:27.170 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-06-10 16:08:27.171 lucee.runtime.config.ConfigWebFactory loaded system
+2025-06-10 16:08:27.173 lucee.runtime.config.ConfigWebFactory loaded resource providers
+2025-06-10 16:08:27.176 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-06-10 16:08:27.716 lucee.runtime.config.ConfigWebFactory loaded extension
+2025-06-10 16:08:27.716 lucee.runtime.config.ConfigWebFactory loaded webservice
+2025-06-10 16:08:27.718 lucee.runtime.config.ConfigWebFactory loaded orm
+2025-06-10 16:08:27.720 lucee.runtime.config.ConfigWebFactory loaded cache handlers
+2025-06-10 16:08:27.721 lucee.runtime.config.ConfigWebFactory loaded charset
+2025-06-10 16:08:27.721 lucee.runtime.config.ConfigWebFactory loaded application
+2025-06-10 16:08:27.722 lucee.runtime.config.ConfigWebFactory loaded java
+2025-06-10 16:08:27.732 lucee.runtime.config.ConfigWebFactory loaded mappings
+2025-06-10 16:08:27.733 lucee.runtime.config.ConfigWebFactory loaded rest
+2025-06-10 16:08:27.733 lucee.runtime.config.ConfigWebFactory loaded extensions
+2025-06-10 16:08:27.751 lucee.runtime.config.ConfigWebFactory loaded datasources
+2025-06-10 16:08:27.753 lucee.runtime.config.ConfigWebFactory loaded cache
+2025-06-10 16:08:27.755 lucee.runtime.config.ConfigWebFactory loaded custom tag mappings
+2025-06-10 16:08:27.755 lucee.runtime.config.ConfigWebFactory loaded tags
+2025-06-10 16:08:27.755 lucee.runtime.config.ConfigWebFactory loaded regional
+2025-06-10 16:08:27.756 lucee.runtime.config.ConfigWebFactory loaded compiler
+2025-06-10 16:08:27.756 lucee.runtime.config.ConfigWebFactory loaded scope
+2025-06-10 16:08:27.758 lucee.runtime.config.ConfigWebFactory loaded mail
+2025-06-10 16:08:27.761 lucee.runtime.config.ConfigWebFactory loaded search
+2025-06-10 16:08:27.764 lucee.runtime.config.ConfigWebFactory loaded scheduled tasks
+2025-06-10 16:08:27.764 lucee.runtime.config.ConfigWebFactory loaded debug
+2025-06-10 16:08:27.765 lucee.runtime.config.ConfigWebFactory loaded error
+2025-06-10 16:08:27.766 lucee.runtime.config.ConfigWebFactory loaded regex
+2025-06-10 16:08:27.768 lucee.runtime.config.ConfigWebFactory loaded cfx
+2025-06-10 16:08:27.769 lucee.runtime.config.ConfigWebFactory loaded component
+2025-06-10 16:08:27.769 lucee.runtime.config.ConfigWebFactory loaded update
+2025-06-10 16:08:27.769 lucee.runtime.config.ConfigWebFactory loaded setting
+2025-06-10 16:08:27.770 lucee.runtime.config.ConfigWebFactory loaded proxy
+2025-06-10 16:08:27.775 lucee.runtime.config.ConfigWebFactory loaded remote clients
+2025-06-10 16:08:27.809 lucee.runtime.config.ConfigWebFactory loaded settings2
+2025-06-10 16:08:27.810 lucee.runtime.config.ConfigWebFactory loaded listeners
+2025-06-10 16:08:27.815 lucee.runtime.config.ConfigWebFactory loaded dump writers
+2025-06-10 16:08:27.816 lucee.runtime.config.ConfigWebFactory loaded gateways
+2025-06-10 16:08:27.818 lucee.runtime.config.ConfigWebFactory loaded exe log
+2025-06-10 16:08:27.819 lucee.runtime.config.ConfigWebFactory loaded queue
+2025-06-10 16:08:27.822 lucee.runtime.config.ConfigWebFactory loaded monitors
+2025-06-10 16:08:27.822 lucee.runtime.config.ConfigWebFactory loaded login
+2025-06-10 16:08:27.822 lucee.runtime.config.ConfigWebFactory loaded startup hook
+2025-06-10 16:08:27.877 lucee.runtime.config.ConfigWebFactory ===================================================================
+WEB CONTEXT (SINGLE) (c03635fa4bc259255923d89a87dceac0)
+-------------------------------------------------------------------
+- config:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/lucee-server/context
+- webroot:/media/rbrown/LocalDisk/Public/R_work/elec/lucee-electron/lucee/webapps/ROOT
+- label:c03635fa4bc259255923d89a87dceac0
+===================================================================
+
+2025-06-10 16:09:06.564 lucee.runtime.config.ConfigWebFactory start reading config
+2025-06-10 16:09:06.564 lucee.runtime.config.ConfigWebFactory fixed salt
+2025-06-10 16:09:06.565 lucee.runtime.config.ConfigWebFactory loaded admin mode
+2025-06-10 16:09:06.565 lucee.runtime.config.ConfigWebFactory loaded config
+2025-06-10 16:09:06.565 lucee.runtime.config.ConfigWebFactory loaded constants
+2025-06-10 16:09:06.568 lucee.runtime.config.ConfigWebFactory loaded loggers
+2025-06-10 16:09:06.568 lucee.runtime.config.ConfigWebFactory loaded temp dir
+2025-06-10 16:09:06.568 lucee.runtime.config.ConfigWebFactory loaded id
+2025-06-10 16:09:06.568 lucee.runtime.config.ConfigWebFactory loaded version
+2025-06-10 16:09:06.568 lucee.runtime.config.ConfigWebFactory loaded security
+2025-06-10 16:09:06.568 lucee.runtime.config.ConfigWebFactory loaded lib
+2025-06-10 16:09:06.568 lucee.runtime.config.ConfigWebFactory loaded system
+2025-06-10 16:09:06.569 lucee.runtime.config.ConfigWebFactory loaded resource providers
+2025-06-10 16:09:06.570 lucee.runtime.config.ConfigWebFactory loaded filesystem
+2025-06-10 16:09:06.570 lucee.runtime.config.ConfigWebFactory loaded extension
+2025-06-10 16:09:06.570 lucee.runtime.config.ConfigWebFactory loaded webservice
+2025-06-10 16:09:06.570 lucee.runtime.config.ConfigWebFactory loaded orm
+2025-06-10 16:09:06.571 lucee.runtime.config.ConfigWebFactory loaded cache handlers
+2025-06-10 16:09:06.571 lucee.runtime.config.ConfigWebFactory loaded charset
+2025-06-10 16:09:06.571 lucee.runtime.config.ConfigWebFactory loaded application
+2025-06-10 16:09:06.571 lucee.runtime.config.ConfigWebFactory loaded java
+2025-06-10 16:09:06.571 lucee.runtime.config.ConfigWebFactory loaded mappings
+2025-06-10 16:09:06.571 lucee.runtime.config.ConfigWebFactory loaded rest
+2025-06-10 16:09:06.571 lucee.runtime.config.ConfigWebFactory loaded extensions
+2025-06-10 16:09:06.571 lucee.runtime.config.ConfigWebFactory loaded datasources
+2025-06-10 16:09:06.572 lucee.runtime.config.ConfigWebFactory loaded cache
+2025-06-10 16:09:06.572 lucee.runtime.config.ConfigWebFactory loaded custom tag mappings
+2025-06-10 16:09:06.572 lucee.runtime.config.ConfigWebFactory loaded tags
+2025-06-10 16:09:06.572 lucee.runtime.config.ConfigWebFactory loaded regional
+2025-06-10 16:09:06.572 lucee.runtime.config.ConfigWebFactory loaded compiler
+2025-06-10 16:09:06.572 lucee.runtime.config.ConfigWebFactory loaded scope
+2025-06-10 16:09:06.572 lucee.runtime.config.ConfigWebFactory loaded mail
+2025-06-10 16:09:06.572 lucee.runtime.config.ConfigWebFactory loaded search
+2025-06-10 16:09:06.572 lucee.runtime.config.ConfigWebFactory loaded scheduled tasks
+2025-06-10 16:09:06.572 lucee.runtime.config.ConfigWebFactory loaded debug
+2025-06-10 16:09:06.572 lucee.runtime.config.ConfigWebFactory loaded error
+2025-06-10 16:09:06.572 lucee.runtime.config.ConfigWebFactory loaded regex
+2025-06-10 16:09:06.572 lucee.runtime.config.ConfigWebFactory loaded cfx
+2025-06-10 16:09:06.572 lucee.runtime.config.ConfigWebFactory loaded component
+2025-06-10 16:09:06.572 lucee.runtime.config.ConfigWebFactory loaded update
+2025-06-10 16:09:06.572 lucee.runtime.config.ConfigWebFactory loaded setting
+2025-06-10 16:09:06.572 lucee.runtime.config.ConfigWebFactory loaded proxy
+2025-06-10 16:09:06.573 lucee.runtime.config.ConfigWebFactory loaded remote clients
+2025-06-10 16:09:06.582 lucee.runtime.config.ConfigWebFactory loaded settings2
+2025-06-10 16:09:06.582 lucee.runtime.config.ConfigWebFactory loaded listeners
+2025-06-10 16:09:06.582 lucee.runtime.config.ConfigWebFactory loaded dump writers
+2025-06-10 16:09:06.582 lucee.runtime.config.ConfigWebFactory loaded gateways
+2025-06-10 16:09:06.582 lucee.runtime.config.ConfigWebFactory loaded exe log
+2025-06-10 16:09:06.582 lucee.runtime.config.ConfigWebFactory loaded queue
+2025-06-10 16:09:06.583 lucee.runtime.config.ConfigWebFactory loaded monitors
+2025-06-10 16:09:06.583 lucee.runtime.config.ConfigWebFactory loaded login
+2025-06-10 16:09:06.583 lucee.runtime.config.ConfigWebFactory loaded startup hook
